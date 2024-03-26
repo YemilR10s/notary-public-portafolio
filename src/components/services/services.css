@@ -1,0 +1,51 @@
+.services-section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--color4);
+}
+.services-section h2{
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+.services-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto  auto ;
+    justify-content: center;
+    gap: 80px;
+    
+
+}
+
+.services-content .caja{
+    width: 250px;
+    height: 250px;
+}
+.services-content .caja h3{
+    font-size: 2em;
+}
+.fa-receipt, .fa-certificate, .fa-people-carry-box,
+.fa-ring, .fa-building, .fa-check{
+    font-size: 2.5em;
+    color: var(--color1);
+}
+
+@media (max-width: 900px) {
+    .services-content{
+        grid-template-columns: auto auto ;
+        gap: 80px;
+        
+    
+    }
+}
+@media (max-width: 600px) {
+    .services-content{
+        grid-template-columns: auto ;
+        gap: 40px;
+        
+    
+    }
+}
