@@ -5,6 +5,7 @@
     flex-direction: column;
     text-align: center;
     background-color: var(--color4);
+    
 }
 .services-section h2{
     font-size: 3em;
