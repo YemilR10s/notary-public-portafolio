@@ -2,13 +2,16 @@ import './home.css';
 import imagenPortafolio from './bg.jpg';
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import {motion} from 'framer-motion'
+import { useTranslation } from 'react-i18next';
 
 
 
 export const Home = () => {
+
+  const {t} = useTranslation()
   
   const [texto] = useTypewriter({
-    words:['NOTARY PUBLIC IN CUTLER BAY'],
+    words:[ t("notary")],
     loop: [],
   })
   return (
@@ -24,7 +27,7 @@ export const Home = () => {
     >
         <div className="home-description">
             <h1>{texto}<Cursor/></h1>
-            <p>As a dedicated and experienced Notary Public in Cutler Bay, I prioritize accuracy, professionalism, and attention to detail in all notarial acts. With comprehensive training and certifications, I specialize in loan signings and real estate transactions. My services cover a variety of documents including affidavits, power of attorney, deeds, and wills, all executed with strict adherence to legal requirements and ethical standards. Additionally, I provide the convenience of mobile notary services, offering flexibility by traveling to clients locations at their preferred times.</p>
+            <p>{t('description')}</p>
             <div className="iconos">
             <i className="fa-brands fa-linkedin"></i>
             <i className="fa-brands fa-instagram"></i>
