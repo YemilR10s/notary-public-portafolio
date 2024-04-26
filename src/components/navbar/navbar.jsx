@@ -31,12 +31,12 @@ export const Navbar = () => {
         <li><a href="/">{t("services")}</a></li>
         <li><a href="/">{t("testimonials")}</a></li>
         <li><a href="/">{t("contact")}</a> </li>
+    <div className="idiomas">
+      <button onClick={() => changeLanguage('es')}>ES</button>
+      <button onClick={() => changeLanguage('en')}>EN</button>
+    </div>
     </ul>
 
-    <div className="idiomas">
-      <button onClick={() => changeLanguage('es')}>Spanish</button>
-      <button onClick={() => changeLanguage('en')}>English</button>
-    </div>
 
      <i onClick={toggleMenu} className={showMenu ? "fa-solid fa-xmark" :"fa-solid fa-bars"}></i>
 

@@ -11,7 +11,7 @@ export const Home = () => {
   const {t} = useTranslation()
   
   const [texto] = useTypewriter({
-    words:[ t("notary")],
+    words:[ t("notary"), t("experience")],
     loop: [],
   })
   return (

@@ -13,7 +13,7 @@ export const Services = () => {
   return (
     <>
     <div className="services-section">
-
+    
         <motion.h2
             initial={{opacity:0, y: 50}}
             whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 1.5}}}
