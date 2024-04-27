@@ -1,5 +1,52 @@
 .containerFooter{
     width: 100%;
-    height: 500px;
+    height: 300px;
     background: var(--color5);
+    color: var(--color4);
+    display: flex;
+    flex-direction: column;
+}
+.containerFooter .content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.fa-location-dot, .fa-phone, .fa-envelope, .fa-calendar-days{
+    margin-right: 10px;
+}
+.containerFooter .content .zonasCercnas{
+  
+}
+.containerFooter .content .otrosLinks{  
+    color: var(--color4);
+
+}
+.containerFooter .content .otrosLinks li a{
+    color: var(--color4);
+    text-decoration: none;
+
+}
+.derechosAutor{ 
+    text-align: center;
+    background: var(--color5);
+    color: var(--color4);
+    font-size: 0.8rem;
+}
+.derechosAutor p a{
+    margin-left: 10px;
+    color: var(--color4);
+
+}
+@media (max-width:426px) {
+    .containerFooter{
+         height: 800px;
+        
+    }
+    .containerFooter .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 30px;
+    
+    }  
 }

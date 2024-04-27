@@ -10,6 +10,8 @@ import esHome from "./components/locales/homeT/esHome.json"
 import enHome from "./components/locales/homeT/enHome.json" 
 import enServices from "./components/locales/servicesT/enServices.json" 
 import esServices from "./components/locales/servicesT/esServices.json" 
+import enFooter from "./components/locales/footerT/enFooter.json" 
+import esFooter from "./components/locales/footerT/esFooter.json" 
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
@@ -24,13 +26,15 @@ i18n
         translation: {
            ...enTraslation,
            ...enHome,
-           ...enServices
+           ...enServices,
+           ...enFooter,
         }
       },
       es: {translation: {
           ...esTraslation ,
           ...esHome,
-          ...esServices
+          ...esServices,
+          ...esFooter,
 
       }}
     }

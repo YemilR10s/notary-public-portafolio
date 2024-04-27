@@ -16,7 +16,7 @@ export const Services = () => {
     
         <motion.h2
             initial={{opacity:0, y: 50}}
-            whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 1.5}}}
+            whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 0.5}}}
             viewport={{ once: false, amount: .5 }}
         className='servicesTitle'>{t("ourServices")}
         </motion.h2>
@@ -27,7 +27,7 @@ export const Services = () => {
 
             <motion.div className="caja"
               initial={{opacity:0 , y: 50}}
-              whileInView={{opacity: 1, y:0, transition: {delay: 0.4, duration: 1.5}}}
+              whileInView={{opacity: 1, y:0, transition: {delay: 0.4, duration: 0.5}}}
               viewport={{ once: false, amount: .5}}
             >
             <i className="fa-solid fa-receipt"></i>
@@ -37,7 +37,7 @@ export const Services = () => {
 
             <motion.div 
                 initial={{opacity:0, y: 50 }}
-                whileInView={{opacity: 1, y:0, transition: {delay: 0.4, duration: 1.5}}}
+                whileInView={{opacity: 1, y:0, transition: {delay: 0.4, duration: 0.5}}}
                 viewport={{ once: false, amount: .5 }}
                 className="caja">
             <i className="fa-solid fa-certificate"></i>
@@ -48,7 +48,7 @@ export const Services = () => {
 
             <motion.div
                  initial={{opacity:0, y: 50 }}
-                 whileInView={{opacity: 1, y:0, transition: {delay: 0.4, duration: 1.5}}}
+                 whileInView={{opacity: 1, y:0, transition: {delay: 0.4, duration: 0.5}}}
                  viewport={{ once: false, amount: .5 }}
                 className="caja">
             <i className="fa-solid fa-people-carry-box"></i>
@@ -57,7 +57,7 @@ export const Services = () => {
 
             <motion.div
                   initial={{opacity:0, y: 50 }}
-                  whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 1.5}}}
+                  whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 0.5}}}
                   viewport={{ once: false, amount: .5 }}
                 className="caja">
             <i className="fa-solid fa-ring"></i>
@@ -66,7 +66,7 @@ export const Services = () => {
 
             <motion.div
                  initial={{opacity:0, y: 50 }}
-                 whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 1.5}}}
+                 whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 0.5}}}
                  viewport={{ once: false, amount: .5 }}
                 className="caja">
             <i className="fa-solid fa-building"></i>
@@ -76,7 +76,7 @@ export const Services = () => {
 
             <motion.div 
                  initial={{opacity:0, y: 50 }}
-                 whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 1.5}}}
+                 whileInView={{opacity: 1, y:0, transition: {delay: 0.2, duration: 0.5}}}
                  viewport={{ once: false, amount: .5 }}
                 className="caja">
             <i className="fa-solid fa-check"></i>
