@@ -17,15 +17,20 @@ export const Home = () => {
   return (
     <>
     <motion.div className="home-section" id='home'
-      variants={{
-        hiddent: {opacity: 0, y: -100},
-        visible: {opacity: 1, y: 0}
+    /*   variants={{
+        hiddent: {opacity: 0, x: -100},
+        visible: {opacity: 1, x: 0}
       }}
       initial="hiddent"
       animate="visible"
-      transition={{duration: 1.5}}
+      transition={{duration: 1.5}} */
     >
-        <div className="home-description">
+        <motion.div className="home-description"
+
+            initial={{opacity:0, x:-100}}
+            animate={{opacity:1 , x:0}}
+            transition={{duration: 1.5}}>
+
             <h1>{texto}<Cursor/></h1>
             <p>{t('description')}</p>
             <div className="iconos">
@@ -33,10 +38,15 @@ export const Home = () => {
             <i className="fa-brands fa-instagram"></i>
             <i className="fa-brands fa-facebook"></i>
             </div>
-        </div>
-        <div className="home-imagen">
+
+        </motion.div>
+
+        <motion.div className="home-imagen"
+        initial={{opacity: 0, x:80}}
+        animate={{opacity: 1, x:0}}
+        transition={{duration:1.5}}>
         <img src={imagenPortafolio} alt="LidiaIMG" />
-        </div>
+        </motion.div>
     </motion.div>
     </>
   )

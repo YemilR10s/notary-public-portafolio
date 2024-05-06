@@ -10,8 +10,11 @@ export const Testimonios = () => {
 
   const settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    autoplay: true,
+    speed: 9000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,

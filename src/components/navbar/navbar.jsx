@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './navbar.css'
 import logo from "./logo.png"
 import {useTranslation} from "react-i18next"
+import {motion} from "framer-motion"
 
 
 
@@ -25,7 +26,10 @@ export const Navbar = () => {
   return (
 
     <>
-    <div className="navbar-container">
+    <motion.div className="navbar-container"
+    initial={{opacity:0, y:-100}}
+    animate={{opacity:1, y:0}}
+    transition={{duration: 1.5}}>
     
     <div className="logo" >
       <img src={logo} alt="logo" />
@@ -48,7 +52,7 @@ export const Navbar = () => {
 
      <i onClick={toggleMenu} className={showMenu ? "fa-solid fa-xmark" :"fa-solid fa-bars"}></i>
 
-    </div>
+    </motion.div>
     </>
   )
 }
