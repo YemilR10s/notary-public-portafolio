@@ -16,6 +16,7 @@ import esFooter from "./components/locales/footerT/esFooter.json"
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
 
+
 // initialize i18next
 
 i18n
@@ -48,16 +49,17 @@ i18n
 
 function App() {
  
-
-  return (
-    <>
-      <Navbar/>
-      <Home/>
-      <Services/>
-      <Testimonios/>
-      <Footer/>
-    </>
-  )
+ 
+  return (  
+      <>
+        <Navbar/>
+        <Home />
+        <Services />
+        <Testimonios />
+        <Footer /> 
+      </>
+   
+  );
 }
 
 export default App

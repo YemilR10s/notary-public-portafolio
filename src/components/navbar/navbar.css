@@ -9,10 +9,13 @@
     z-index: 1;
 
 }
-.navbar-container .logo{
-    color: var(--color4);
-    font-weight: bold;
-    font-size: 2em;
+.navbar-container .logo img{
+    display: flex;
+    width: 70px;
+    background: var(--color4);
+    border-radius: 40px;
+    justify-content: center;
+    
 }
 .navbar-container .items-container{
     display: flex;

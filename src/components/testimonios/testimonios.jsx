@@ -1,11 +1,70 @@
-import './testimonios.css'
+import { DataTestimonios } from "./dataTestimonios"
+import { CardTestimonios } from "./testimonosCard/cardTestimonios"
+import "./testimonios.css"
+import Slider from "react-slick";
+
+
+
 
 export const Testimonios = () => {
+
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 445,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+    
+    ]
+  };
+
   return (
+
     <>
-    <div className="container">
-        <h2>testimonios section</h2>
+    <div className="testimoniosContainer" id="testimonios">
+      <h2>Testimonios</h2>
+      <div className="testimonios">
+
+      <Slider {...settings}>
+      {DataTestimonios.map((item, index) =>(
+        <CardTestimonios
+        key={index}
+        reseña={item.reseña}
+        nombre={item.nombre}
+        />
+      ))}
+      </Slider>
+
+      </div>
     </div>
+    
     </>
   )
 }
+

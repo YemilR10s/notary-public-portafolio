@@ -12,7 +12,7 @@ export const Services = () => {
    
   return (
     <>
-    <div className="services-section">
+    <div className="services-section" id='services'>
     
         <motion.h2
             initial={{opacity:0, y: 50}}

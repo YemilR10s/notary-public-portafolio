@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+*{
 
+  scroll-behavior: smooth;
+}
 body{
   margin: 0;
   padding: 0;
@@ -12,6 +15,6 @@ body{
   --color1: #201658 ;
   --color2: #378CE7;
   --color3: #67C6E3;
-  --color4: #ffffff;
-  --color5: #070F2B;
+  --color4: #F6F5F2;
+  --color5: #333F44;
 }

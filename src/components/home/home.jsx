@@ -1,5 +1,5 @@
 import './home.css';
-import imagenPortafolio from './bg.jpg';
+import imagenPortafolio from './bg2.jpg';
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import {motion} from 'framer-motion'
 import { useTranslation } from 'react-i18next';
@@ -16,7 +16,7 @@ export const Home = () => {
   })
   return (
     <>
-    <motion.div className="home-section"
+    <motion.div className="home-section" id='home'
       variants={{
         hiddent: {opacity: 0, y: -100},
         visible: {opacity: 1, y: 0}
