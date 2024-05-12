@@ -2,12 +2,16 @@ import { DataTestimonios } from "./dataTestimonios"
 import { CardTestimonios } from "./testimonosCard/cardTestimonios"
 import "./testimonios.css"
 import Slider from "react-slick";
+import { useTranslation } from "react-i18next";
+
+
 
 
 
 
 export const Testimonios = () => {
 
+  const {t} = useTranslation()
   const settings = {
     dots: true,
     infinite: true,
@@ -15,7 +19,7 @@ export const Testimonios = () => {
     speed: 9000,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
@@ -51,20 +55,37 @@ export const Testimonios = () => {
 
     <>
     <div className="testimoniosContainer" id="testimonios">
-      <h2>Testimonios</h2>
+
+
       <div className="testimonios">
+          <h2>{t("testimony")}</h2>
+          <div className="google"></div>
+          <div className="p-e-container">
+            <div className="estrellas"></div>
+            <div className="puntuacion"> = 5,0</div>
+          </div>
+          <div className="t-a-container">
+            <div className="totalidad">{t("review")}</div>
+            <a href="https://www.google.com/localservices/prolist?spp=CgwvZy8xcHAydmJuNWQ%3D&scp=CgAaG05PVEFSWSBQVUJMSUMgSU4gQ1VUTEVSIEJBWSobTk9UQVJZIFBVQkxJQyBJTiBDVVRMRVIgQkFZ&q=NOTARY+PUBLIC+IN+CUTLER+BAY&src=2&slp=UhQIARIQEg4iDC9nLzFwcDJ2Ym41ZA#ts=3" target="_blank">{t("reviewA")}</a>
+          </div>
+      </div>
+
+
+     
 
       <Slider {...settings}>
       {DataTestimonios.map((item, index) =>(
+
         <CardTestimonios
         key={index}
         reseña={item.reseña}
         nombre={item.nombre}
+        src={item.src}
+        fecha={item.fecha}
+        estrella={item.estrella}
         />
       ))}
       </Slider>
-
-      </div>
     </div>
     
     </>

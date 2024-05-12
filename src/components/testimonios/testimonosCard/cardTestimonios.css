@@ -1,18 +1,47 @@
 .card{
-    width: 700px;
+    width: 400px;
     height: 200px;
-    border: 5px solid var(--color1);
+    border: 5px solid var(--color5);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    background: var(--color5);
+
+}
+.card .encabezado{
+    display: flex;
+
+}
+
+.card .encabezado img{
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+.card .encabezado .nombreYfecha{
+    margin-left: 20px;
+}
+.card .encabezado .nombreYfecha h3{
+    font-size: 1em;
+}
+.card .encabezado .nombreYfecha p{
+    font-size: 0.7em;
+    margin-top: -20px;
+    text-align: start;
+}
+.card img{
+    width: 100px;
+    margin-left: 110px;
+    margin-top: -60px;
 
 }
 .card p{
-    padding: 10px;
-
+    margin-top: -5px;
+    font-size: 0.9em;
 }
+
 
 
 @media (max-width: 1024px) {
@@ -41,10 +70,14 @@
 @media (max-width: 445px) {
     .card{
         width: 300px;
-        height: 200px;
+        height: 250px;
         margin: 0 auto;
         
         
+    }
+    .card .encabezado{
+        padding: 20px 0;
+    
     }
     
     

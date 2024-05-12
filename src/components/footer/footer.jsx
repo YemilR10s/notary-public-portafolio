@@ -11,7 +11,7 @@ export const Footer = () => {
   
 
               <div className="contacto">
-                <h3>{t("Contac")}</h3>
+                <h3>{t("contacF")}</h3>
                 <p className="ubicacion">
                 <i className="fa-solid fa-location-dot"></i>
                 10393 SW 186th St #1H, <br />Miami, FL 33157
