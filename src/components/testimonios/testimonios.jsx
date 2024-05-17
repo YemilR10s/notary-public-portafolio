@@ -1,4 +1,4 @@
-import { DataTestimonios } from "./dataTestimonios"
+
 import { CardTestimonios } from "./testimonosCard/cardTestimonios"
 import "./testimonios.css"
 import Slider from "react-slick";
@@ -12,6 +12,8 @@ import { useTranslation } from "react-i18next";
 export const Testimonios = () => {
 
   const {t} = useTranslation()
+  const Testimonials = t("Testimonials")
+
   const settings = {
     dots: true,
     infinite: true,
@@ -74,15 +76,15 @@ export const Testimonios = () => {
      
 
       <Slider {...settings}>
-      {DataTestimonios.map((item, index) =>(
+      {Testimonials.map((item, index) =>(
 
         <CardTestimonios
         key={index}
-        reseña={item.reseña}
-        nombre={item.nombre}
+        review={item.review}
+        name={item.name}
         src={item.src}
-        fecha={item.fecha}
-        estrella={item.estrella}
+        date={item.date}
+        star={item.star}
         />
       ))}
       </Slider>

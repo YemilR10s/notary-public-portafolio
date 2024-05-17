@@ -1,0 +1,54 @@
+
+{
+    "Testimonials": [
+        {
+            "review": "I am very grateful to the lawyers Lisia Saca and Rosa Garibello. They helped me very professionally with my son's naturalization certificate. I recommend this place 100%; it has a very pleasant atmosphere!",
+            "name": "Ovidio De la campa",
+            "src": "./ovidio.png",
+            "date": "One month ago",
+            "star": "./estrellas.png"
+        },
+        {
+            "review": "Very happy with the service received at the office of lawyer Lidia Saca. I appreciate the professional ethics I receive every time I visit the office! I recommend this place for any immigration or document notarization services!",
+            "name": "Ana Maria Heredía Pupo",
+            "src": "./ana.png",
+            "date": "One month ago",
+            "star": "./estrellas.png"
+        },
+        {
+            "review": "I visited the office of lawyers Lidia Saca and Rosa Garibello for my American Citizenship and the service was excellent! A very pleasant and trustworthy environment. Highly recommended 100%",
+            "name": "Rudy Peña",
+            "src": "./rudy.png",
+            "date": "Three months ago",
+            "star": "./estrellas.png"
+        },
+        {
+            "review": "Grateful to lawyers Lidia and Liliana who do a very professional job of Excellent quality in Notary Public in Cutler Bay Miami, always trying to help each client in a personalized way and adhering to Christian values.",
+            "name": "Eddy Sotelo",
+            "src": "./edy.png",
+            "date": "Four months ago",
+            "star": "./estrellas.png"
+        },
+        {
+            "review": "Every time I visit this agency, I am amazed by the attention and the service is first class, EXCELLENT. Lidia and Rosa provide their clients with security, confidence, and respect in what they do. I recommend visiting the place.",
+            "name": "Midiala Gomez",
+            "src": "./midilia.png",
+            "date": "Four months ago",
+            "star": "./estrellas.png"
+        },
+        {
+            "review": "My experience was unique, exceptional, very satisfying. I recommend Lidia for any notarization and immigration services, a fast, clear service with excellent attention and a very pleasant atmosphere.",
+            "name": "Diana Caridad Espinosa Melendez",
+            "src": "./diana.png",
+            "date": "Five months ago",
+            "star": "./estrellas.png"
+        },
+        {
+            "review": "I visited the office and received excellent attention and observed a good working environment. I recommend Dr. Lidia Saca for her excellent kindness and professional advice.",
+            "name": "Victor Pajaro",
+            "src": "./victor.png",
+            "date": "Five months ago",
+            "star": "./estrellas.png"
+        }
+    ]
+}

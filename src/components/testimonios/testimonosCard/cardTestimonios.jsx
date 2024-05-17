@@ -3,7 +3,7 @@
 import "./cardTestimonios.css"
 
 
-export const CardTestimonios = ({reseña, nombre, src,fecha,estrella}) => {
+export const CardTestimonios = ({review, name, src,date,star}) => {
   return (
     <>
     
@@ -12,13 +12,13 @@ export const CardTestimonios = ({reseña, nombre, src,fecha,estrella}) => {
       <div className="encabezado">
         <img src={src} alt="foto" />
         <div className="nombreYfecha">
-          <h3>{nombre}</h3>
-          <p>{fecha}</p>
+          <h3>{name}</h3>
+          <p>{date}</p>
         </div>
       </div>
-       <img src={estrella} alt="estrella" />
+       <img src={star} alt="estrella" />
 
-      <p>{reseña}</p>
+      <p>{review}</p>
     </div>
     </>
   )

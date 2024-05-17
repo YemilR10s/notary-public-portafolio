@@ -14,6 +14,8 @@ import enFooter from "./components/locales/footerT/enFooter.json"
 import esFooter from "./components/locales/footerT/esFooter.json" 
 import enTestimony from "./components/locales/testimonios/enTestimonios.json" 
 import esTestimony from "./components/locales/testimonios/esTestimonios.json" 
+import esTestimonyCarrusel from "./components/locales/testimonios/esTestimoniosCarrusel.json" 
+import enTestimonyCarrusel from "./components/locales/testimonios/enTestimoniosCarrusel.json" 
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
@@ -31,7 +33,8 @@ i18n
            ...enHome,
            ...enServices,
            ...enFooter,
-           ...enTestimony
+           ...enTestimony,
+           ...enTestimonyCarrusel
         }
       },
       es: {translation: {
@@ -39,7 +42,9 @@ i18n
           ...esHome,
           ...esServices,
           ...esFooter,
-          ...esTestimony
+          ...esTestimony,
+          ...esTestimonyCarrusel
+
 
 
       }}
@@ -49,7 +54,8 @@ i18n
     fallbackLng: "en", // Fallback language Define el idioma de reserva que se utilizará si la traducción para el idioma actual no está disponible.
     interpolation: {
       escapeValue: false //// React already escapes by default
-    }
+    },
+    returnObjects: true 
   })
 
 function App() {
