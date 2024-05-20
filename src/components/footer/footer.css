@@ -1,3 +1,5 @@
+/* ****************** FOOTER ***************+ */
+
 .containerFooter{
     width: 100%;
     height: 300px;
@@ -11,12 +13,41 @@
     justify-content: space-around;
 
 }
-.fa-location-dot, .fa-phone, .fa-envelope, .fa-calendar-days{
+
+/* ****************** CONTACTO ****************/
+
+.containerFooter .content .email p a{
+    color: var(--color4);
+    text-decoration: none;
+}
+.containerFooter .content .ubicacion a{
+    color: var(--color4);
+    text-decoration: none;
+}
+.containerFooter .content .redesSociales{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    
+    
+}
+
+.containerFooter .content .redesSociales a{
+    color: var(--color4);
+    text-decoration: none;
+
+    
+    
+}
+.fa-location-dot, .fa-phone, .fa-envelope, .fa-calendar-days, .fa-instagram{
     margin-right: 10px;
 }
-.containerFooter .content .zonasCercnas{
-  
-}
+
+
+/* ******************otros links ****************/
+
+
 .containerFooter .content .otrosLinks{  
     color: var(--color4);
 
