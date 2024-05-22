@@ -15,6 +15,10 @@ export const Navbar = () => {
       i18n.changeLanguage(language);
     };
 
+
+    const handleSelectChange = (event) => {
+      changeLanguage(event.target.value);
+    };
     // menu toggle
     const [showMenu, setShowMenu] = useState(false)
     function toggleMenu(){
@@ -43,10 +47,10 @@ export const Navbar = () => {
         <li><a href="#footer">{t("contact")}</a></li>
         
 
-    <div className="idiomas">
-      <button onClick={() => changeLanguage('es')}>ES</button>
-      <button onClick={() => changeLanguage('en')}>EN</button>
-    </div>
+    <select className="idiomas" onChange={handleSelectChange}>
+      <option value="en">EN</option>
+      <option value="es">ES</option>
+    </select>
     </ul>
 
 

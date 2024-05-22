@@ -1,9 +1,13 @@
 {
     "ourServices": "OUR SERVICES",
     "notaryPublic": "Notary Public",
+    "notaryP":"As a notary public in the state of Florida I play a vital role in safeguarding the integrity of legal documents and transactions. My impartiality, attention to detail and compliance with legal regulations guarantee the validity and authenticity of important documents within society",
     "CertifiedSigningAgent": "Certified Signing Agent",
+    "CertifiedSigningAgentP": "As a professional Certified Signing Agent I am authorized to witness and authenticate the signing of important legal documents, particularly those related to real estate transactions such as mortgages, refinancings and loan agreements. My main role is to ensure that the signing process is executed correctly, complying with all legal requirements and regulations.",
     "ImmigrationProcedures": "Immigration Procedures",
+    "ImmigrationProceduresP": "Navigating immigration processes can be overwhelming, but with my extensive knowledge and experience, you can move forward with confidence. I offer meticulous document preparation and personalized consultations, ensuring each client receives tailored support. Whether you need assistance with permanent residency or document preparation, I am dedicated to simplifying the process and achieving successful results. Contact me today to start your journey to a new beginning.",
     "WeddingOffician": "Wedding officiant",
+    "WeddingOfficianP": "As a wedding officiant I can preside and solemnize marriage ceremonies. Playing a central role in the wedding ceremony, guiding the couple through their vows and legally uniting them in marriage.",
     "RealEstateAgent": "Real Estate Agent",
     "Corporations": "Corporations"
 }

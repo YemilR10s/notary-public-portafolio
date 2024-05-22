@@ -18,44 +18,52 @@ export const Services = () => {
         </h2>
 
 
-    <div className="services-content">
+      <div className="services-icon">
 
 
             <div className="caja">
-            <i className="fa-solid fa-receipt"></i>
+            <i className="fa-solid fa-receipt" style={{color:"red"}}></i>
             <h3>{t("notaryPublic")}</h3>
+            <p>{t("notaryP")}</p>
             </div>
 
 
             <div className="caja">
-            <i className="fa-solid fa-certificate"></i>
+            <i className="fa-solid fa-certificate" style={{color:"yellow"}}></i>
             <h3>{t("CertifiedSigningAgent")}</h3>  
+            <p>{t("CertifiedSigningAgentP")}</p>
             </div>
 
 
 
             <div className="caja">
-            <i className="fa-solid fa-people-carry-box"></i>
-            <h3>{t("ImmigrationProcedures")}</h3> 
+            <i className="fa-solid fa-people-carry-box" style={{color:"green"}}></i>
+            <h3>TRAMITES DE INMIGRACIÓN</h3> 
+            <p>{t("ImmigrationProceduresP")}</p>
             </div>
 
             <div className="caja">
-            <i className="fa-solid fa-ring"></i>
+            <i className="fa-solid fa-ring" style={{color:"blue"}}></i>
             <h3>{t("WeddingOffician")}</h3> 
+            <p>{t("WeddingOfficianP")}</p>
             </div>
 
             <div className="caja">
-            <i className="fa-solid fa-building"></i>
-            <h3>{t("RealEstateBroker")}</h3>    
+            <i className="fa-solid fa-building" style={{color:"brown"}}></i>
+            <h3>{t("RealEstateAgent")}</h3>    
             </div>
 
 
             <div className="caja">
-            <i className="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check" style={{color:"pink"}}></i>
             <h3>{t("Corporations")}</h3>
             </div>
                       
         </div>
+
+      <div className="services-conten">
+
+      </div>
         
     </div>
     </>

@@ -3,11 +3,9 @@
     width: 100%;
     height: 700px;
     display: flex;
-    background-color: #F5F7F8;
-    background-image:  radial-gradient(#083358 0.65px, transparent 0.65px), radial-gradient(#083358 0.65px, #F5F7F8 0.65px);
-    background-size: 26px 26px;
-    background-position: 0 0,13px 13px;
-    
+    background: var(--color5);   
+    position: relative;
+    overflow: hidden;
     
 }
 /* textos */
@@ -17,58 +15,90 @@
     height: 500px;
     color: var(--color2);
     margin-left: 150px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
-/* degradado azul */
-/* .home-section .home-description::before{
+.home-section .home-description h1{
+    font-size: 3.8em;
+    font-weight: 500;
+}
+.home-section .home-description h1 span{
+    color: var(--color3);
+}
+
+.home-description .listaDesordena{
+    display: flex;
+    margin-top: -30px;
+    margin-left: -20px;
+    gap: 50px;
+    position: relative;
+    
+}
+.home-description .listaDesordena::before{
     content: "";
     position: absolute;
-    width: 400px;
-    height: 400px;
-    background: var(--color2);
-    filter: blur(255px);
-    top: 10px;
-} */
-/* reservas */
-.home-description .cita{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-
-}
-.home-description .cita p{
-    margin-right: 20px;
-    font-size: 1.5em;
-    color: var(--color1);
-    font-weight: bold;
-}
-.home-description .cita button{
-    width: 250px;
-    height: 50px;
-    border-radius: 20px;
-    border: 4px solid var(--color3);
+    width: 3px;
+    height: 150px;
+    top: 90px;
     background: var(--color3);
-    font-size: 1.5em;
-    color: var(--color1);
-    font-weight: bold;
-    cursor: pointer;
-      
- }
+}
+.home-description .listaDesordena ul li{
+        margin: 30px 0;
+        font-size: 1.1em;
+        color: var(--color1);
+        font-weight: 500;
+        list-style: georgian;
+}
+
 /* imagen */
 .home-section .home-imagen{
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     
 }
+.home-section .home-imagen button{
+    position: absolute;
+    z-index: 1;
+    bottom: 110px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color2);
+    color: var(--color5);
+    cursor: pointer;
+}
 .home-section .home-imagen img{
-    width: 380px;
-    height: 500px;
-    margin-top: 100px;
-    border-radius: 50px;
+    width: 320px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 40px;
     z-index: 1;
 }
+.home-section .home-imagen::before{
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 150px;
+    top: 80px;
+    right: 10px;
+    background: var(--color3);
+    clip-path: polygon(50% 0%, 57% 39%, 98% 35%, 60% 49%, 79% 91%, 52% 58%, 21% 91%, 44% 51%, 2% 35%, 46% 41%);
+}
+.home-section .home-imagen::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 10px;
+    background: var(--color3);
+    clip-path: polygon(50% 0%, 57% 39%, 98% 35%, 60% 49%, 79% 91%, 52% 58%, 21% 91%, 44% 51%, 2% 35%, 46% 41%);
+}
+
 
 
 
@@ -76,113 +106,130 @@
 /* ***************responsive **************** */
 
 
- @media (max-width:1400px) {
+ @media (max-width:1024px) {
     .home-section .home-description{
-      
-        margin-left: 100px;
-        
-    }
- }
- @media (max-width:1100px) {
-    .home-section .home-description{
-      
+        margin-top: 80px;
         margin-left: 50px;
-        
+
     }
-    .home-section .home-imagen img{
-        width: 350px;
-        height: 450px;
-      
+    .home-section .home-description h1{
+        font-size: 3em; 
+    }
+    .home-section .home-imagen button{
+        bottom: 80px;
+        left: 30px;
     }
  }
- @media (max-width:900px) {
+ @media (max-width:768px) {
     .home-section{
-        width: 100%;
-        height: 1000px;
-        display: flex;
+        height: 1100px;
         flex-direction: column-reverse;
         
+        
     }
-    .home-section .home-description{
-        margin: 0;
-        width: 100%; 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .home-section .home-description p{
-       padding: 0 100px;
-    }
-    .home-section .home-imagen{
-        width: 100%;
-    }
-    .home-section .home-imagen img{
-      margin-top: 120px;
-      
-    }
+    /* textos */
+.home-section .home-description{
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.home-section .home-description h1{
+    font-size: 2em;
+    font-weight: 500;
+    text-align: start;
+    margin-right: 5em;
+}
+.home-description .listaDesordena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    gap: 20px;
+    position: relative;
     
- }
- @media (max-width:769px) {
-   
-    
-    .home-section .home-description p{
-       padding: 0 50px;
-    }
-    .home-section .home-description h1{
-        font-size: 1.5em;
-     }
-     
-    
- }  
- @media (max-width:426px) {
-   
-    
-    .home-section .home-description p{
-       padding: 0 20px;
-       text-align: center;
-    }
-    .home-section .home-description h1{
-        font-size: 1.2em;
-     }
-     .home-section .home-imagen img{
-        width: 280px;
-        height: 380px;
-      
-    }
-    /* reservas */
-   
-    .home-description .cita p{
-    margin-right: 20px;
+}
+.home-description .listaDesordena ul li{
+    margin: 20px 0;
     font-size: 1em;
     
-    }   
-    .home-description .cita button{
-    width: 150px; 
-    font-size: 1.2em;
-   
-      
- }
-     
     
- }  
- @media (max-width:321px){
-    .home-section{
-        height: 900px;
+}
+ .home-section .home-imagen{
+        width: 100%;
+          
     }
-    .home-section .home-imagen img{
-        width: 250px;
-        height: 300px;
-      
-    }
-    .home-section .home-imagen img{
-        margin-top: 0px;
+    .home-section .home-imagen::before{
+        width: 140px;
+        height: 150px;
+        top: 10px;
+        right: 30px;
         
-      }
-      .home-section .home-description h1{
-        font-size: 1em;
-     }
-     .home-section .home-description p{
-        font-size: 0.9rem;
-     }
+    }
+    .home-section .home-imagen button{
+        bottom: -10px;
+        left: 190px;
+    }
+ }
+ @media (max-width:426px){
+
+    .home-section{
+        height: 1000px;    
+        
+    }
+    .home-section .home-imagen{
+        margin-top: 20px;
+          
+    }
+    .home-section .home-imagen::before{
+        display: none;
+    }
+    .home-section .home-imagen::after{
+        display: none;
+    }
+    .home-section .home-imagen button{
+        bottom: -10px;
+        left: 30px;
+    }
+    .home-description .listaDesordena ul{
+        padding: 20px 20px 0 20px ;
+        margin: 0;
+    }
+    .home-description .listaDesordena ul li{
+        margin: 10px 0;
+        font-size: 0.8em;
+        margin-right: 4em;
+            
+    }
+    .home-section .home-description h1{
+        font-size: 1.7em;
+        font-weight: 500;
+        text-align: start;
+        margin-right: 3em;
+        margin-top: -50px;
+    }
+ }
+ @media (max-width:375px){
+    .home-section{
+        height: 1100px;    
+        
+    }
+ }
+ @media (max-width:320px){
+    .home-section .home-imagen img{
+        width: 280px;
+        height: 350px;
+       
+    }
+    .home-description {
+        padding: 0;
+    }
+    .home-section .home-description h1{
+        font-size: 2em;
+        font-weight: 500;
+        text-align: start;
+        margin-right: 2em;
+        margin-left: -1em;
+        margin-top: -20px;
+    }
  }

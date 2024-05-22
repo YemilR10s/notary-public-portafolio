@@ -1,10 +1,14 @@
 
 {
-    "description": "As a dedicated and experienced Notary Public in Cutler Bay, I prioritize accuracy, professionalism, and attention to detail in all notarial acts. With comprehensive training and certifications, I specialize in loan signings and real estate transactions. My services cover a variety of documents including affidavits, power of attorney, deeds, and wills, all executed with strict adherence to legal requirements and ethical standards. Additionally, I provide the convenience of mobile notary services, offering flexibility by traveling to clients locations at their preferred times.",
-
-    "notary": "NOTARY PUBLIC IN CUTLER BAY",
-    "experience": "MORE THAN 12 YEARS OF EXPERIENCE",
+    "description": "More than <span style='color: red;'>12 years</span> of experience as a public notary in <span style='color: red;'>Cutler Bay</span>",
     "book": "Book An Appointment",
-    "bookButon": "BOOK "
+    "list1": "Convenience of mobile notarial services, offering flexibility.",
+    "list2": "Commitment to confidentiality and security of client information.",
+    "list3": "Execution of documents with strict compliance to legal requirements and ethical standards.",
+    "list4": "Personalized attention tailored to each client's needs.",
+    "list5": "Priority on accuracy, professionalism, and attention to detail in all notarial acts.",
+    "list6": "Comprehensive training and specialized certifications."
+
+
     
 }

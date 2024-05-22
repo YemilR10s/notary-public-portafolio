@@ -2,17 +2,18 @@
 .navbar-container{
     position: fixed;
     width: 100%;
-    height: 80px;
-    background: var(--color1);
+    height: 60px;
+    background: var(--color4);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 1px 0px 5px 1px var(--color1) ;
     z-index: 2;
 
 }
 .navbar-container .logo img{
     display: flex;
-    width: 70px;
+    width: 60px;
     background: var(--color4);
     border-radius: 40px;
     justify-content: center;
@@ -25,11 +26,12 @@
 }
 .navbar-container .items-container li a{
     position: relative;
+    line-height: 60px;
     margin: 20px;
     text-decoration: none;
-    color: var(--color4);
+    color: var(--color2);
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.1em;
     
     
 
@@ -53,18 +55,14 @@
     opacity: 1;
 }
 .navbar-container .items-container .idiomas{
-    position: relative;
-    right: -180px;
+    width: 50px;
+    height: 25px;
+    margin: 15px;
+    background: var(--color4);
+    border: 2px solid var(--color2);
+    
 }
-.navbar-container .items-container .idiomas button{
-    font-size: 1rem;
-    padding: 7px;
-    background: none;
-    color: var(--color4);
-    border: 1px solid var(--color4);
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 .navbar-container .fa-bars{
     display: none;
 }
@@ -81,9 +79,9 @@
         display: block;
         top: 0;
         right: 0;
-        margin: 30px;
+        margin: 20px;
         font-size: 1.5em;
-        color: var(--color4);
+        color: var(--color1);
         cursor: pointer;
     }
     .navbar-container .fa-xmark{
@@ -91,9 +89,9 @@
         display: block;
         top: 0;
         right: 0;
-        margin: 30px;
+        margin: 20px;
         font-size: 1.5em;
-        color: var(--color4);
+        color: var(--color1);
         cursor: pointer;
     }
     .navbar-container .items-container{
