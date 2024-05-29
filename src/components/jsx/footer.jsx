@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import "./footer.css"
+import "../styles/footer.css"
 export const Footer = () => {
   const {t } = useTranslation()
   return (

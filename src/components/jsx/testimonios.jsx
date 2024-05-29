@@ -1,6 +1,6 @@
 
-import { CardTestimonios } from "./testimonosCard/cardTestimonios"
-import "./testimonios.css"
+import { CardTestimonios } from "./cardTestimonios"
+import "../styles/testimonios.css"
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
 

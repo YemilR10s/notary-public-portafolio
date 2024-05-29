@@ -1,5 +1,5 @@
 
-import './services.css'
+import '../styles/services.css'
 import { useTranslation } from 'react-i18next'
 
 
@@ -48,15 +48,11 @@ export const Services = () => {
             <p>{t("WeddingOfficianP")}</p>
             </div>
 
-            <div className="caja">
-            <i className="fa-solid fa-building" style={{color:"brown"}}></i>
-            <h3>{t("RealEstateAgent")}</h3>    
-            </div>
-
 
             <div className="caja">
-            <i className="fa-solid fa-check" style={{color:"pink"}}></i>
-            <h3>{t("Corporations")}</h3>
+            <i className="fa-solid fa-map-location-dot" style={{color:"pink"}}></i>
+            <h3>{t("MOBILENOTARY")}</h3>
+            <p>{t("MOBILENOTARYP")}</p>
             </div>
                       
         </div>

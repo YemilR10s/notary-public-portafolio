@@ -1,5 +1,5 @@
 .services-section{
-    background: var(--color4);
+    background: var(--color5);
     padding: 4em 0;
 }
 .services-section h2{
@@ -19,7 +19,7 @@
     border: 1px solid white;
     border-radius: 20px;
     background: white;
-    box-shadow: 0.1px 0.5px 10px 1px rgba(191, 191, 191, 0.516);
+    box-shadow: 0.1px 0.5px 10px 1px rgba(103, 103, 103, 0.516);
     padding: 2em;
     text-align: start;
     
@@ -29,7 +29,7 @@
 }
 
 .fa-receipt, .fa-certificate, .fa-people-carry-box,
-.fa-ring, .fa-building, .fa-check{
+.fa-ring, .fa-building, .fa-check, .fa-map-location-dot{
     padding: 15px;
     background: var(--color4);
     font-size: 2.5em;   

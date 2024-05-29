@@ -1,6 +1,6 @@
 
 
-import "./cardTestimonios.css"
+import "../styles/cardTestimonios.css"
 
 
 export const CardTestimonios = ({review, name, src,date,star}) => {

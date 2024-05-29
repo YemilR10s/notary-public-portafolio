@@ -1,8 +1,9 @@
-import { Footer } from './components/footer/footer'
-import { Home } from './components/home/home'
-import { Navbar } from './components/navbar/navbar'
-import { Services } from './components/services/services'
-import { Testimonios } from './components/testimonios/testimonios' 
+import { Footer } from './components/jsx/footer'
+import { Home } from './components/jsx/home'
+import { Navbar } from './components/jsx/navbar'
+import { Gallery } from './components/jsx/gallery'
+import { Services } from './components/jsx/services'
+import { Testimonios } from './components/jsx/testimonios' 
 
  import enTraslation from "./components/locales/en.json"
 import esTraslation from "./components/locales/es.json" 
@@ -16,6 +17,8 @@ import enTestimony from "./components/locales/testimonios/enTestimonios.json"
 import esTestimony from "./components/locales/testimonios/esTestimonios.json" 
 import esTestimonyCarrusel from "./components/locales/testimonios/esTestimoniosCarrusel.json" 
 import enTestimonyCarrusel from "./components/locales/testimonios/enTestimoniosCarrusel.json" 
+import enGallery from "./components/locales/gallery/enGallery.json" 
+import esGallery from "./components/locales/gallery/esGallery.json" 
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
@@ -34,7 +37,8 @@ i18n
            ...enServices,
            ...enFooter,
            ...enTestimony,
-           ...enTestimonyCarrusel
+           ...enTestimonyCarrusel,
+           ...enGallery
         }
       },
       es: {translation: {
@@ -43,10 +47,8 @@ i18n
           ...esServices,
           ...esFooter,
           ...esTestimony,
-          ...esTestimonyCarrusel
-
-
-
+          ...esTestimonyCarrusel,
+          ...esGallery
       }}
     }
     ,
@@ -66,6 +68,7 @@ function App() {
         <Navbar/>
         <Home />
         <Services />
+        <Gallery/>
         <Testimonios />
         <Footer /> 
       </>

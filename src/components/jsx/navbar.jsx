@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './navbar.css'
-import logo from "./logo.png"
+import '../styles/navbar.css'
+import logo from "/logo.png"
 import {useTranslation} from "react-i18next"
 import {motion} from "framer-motion"
 
@@ -44,6 +44,7 @@ export const Navbar = () => {
         <li><a href="#home">{t("home")}</a></li>
         <li><a href="#services">{t("services")}</a></li>
         <li><a href="#testimonios">{t("testimonials")}</a></li>
+        <li><a href="#gallery">{t("gallery")}</a></li>
         <li><a href="#footer">{t("contact")}</a></li>
         
 

@@ -1,5 +1,5 @@
-import './home.css';
-import imagenPortafolio from './b4.jpg';
+import '../styles/home.css';
+import imagenPortafolio from '/b4.jpg';
 /* import {useTypewriter, Cursor} from 'react-simple-typewriter' */
 import {motion} from 'framer-motion'
 import { useTranslation } from 'react-i18next';
@@ -55,7 +55,7 @@ export const Home = () => {
         animate={{opacity: 1, x:0}}
         transition={{duration:1.5}}>
         <img src={imagenPortafolio} alt="LidiaIMG" />
-        <button>{t("book")}</button>
+        <button onClick={()=>alert("available soon")}>{t("book")}</button>
         </motion.div>
     </motion.div>
     </>
