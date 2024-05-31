@@ -1,5 +1,9 @@
 import '../styles/home.css';
-import imagenPortafolio from '/b4.jpg';
+import imagenPortafolio from '/home.jpg';
+import logo1 from "/logo1.png"
+import logo2 from "/logo2.png"
+import logo3 from "/logo3.png"
+import logo4 from "/logo4.png"
 /* import {useTypewriter, Cursor} from 'react-simple-typewriter' */
 import {motion} from 'framer-motion'
 import { useTranslation } from 'react-i18next';
@@ -58,6 +62,12 @@ export const Home = () => {
         <button onClick={()=>alert("available soon")}>{t("book")}</button>
         </motion.div>
     </motion.div>
+      <div className="empresas-respaldo">
+        <img src={logo1} alt="logo1" />
+        <img src={logo2} alt="logo2" />
+        <img src={logo3} alt="logo3" />
+        <img src={logo4} alt="logo3" />
+      </div>
     </>
   )
 }

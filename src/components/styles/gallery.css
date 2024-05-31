@@ -1,6 +1,6 @@
 .gallery-container{
     width: 100%;
-    background: var(--color4);
+    background: var(--color5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@
         grid-auto-flow: dense;
       }
 }
-@media (max-width:425px) {
+@media (max-width:426px) {
     .grid-imagenes {
         display: grid;
         grid-template-columns: repeat(300px,1fr);

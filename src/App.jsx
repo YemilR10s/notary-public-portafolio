@@ -64,13 +64,16 @@ function App() {
  
  
   return (  
+      
       <>
-        <Navbar/>
+      <Navbar/>
+  
         <Home />
-        <Services />
+        <Services/>
         <Gallery/>
         <Testimonios />
-        <Footer /> 
+    
+      <Footer/>
       </>
    
   );
