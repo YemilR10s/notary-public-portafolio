@@ -22,6 +22,7 @@ import esGallery from "./components/locales/gallery/esGallery.json"
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
+import { FAQ } from './components/jsx/fqa'
 
 
 // initialize i18next
@@ -72,7 +73,7 @@ function App() {
         <Services/>
         <Gallery/>
         <Testimonios />
-    
+        <FAQ/>
       <Footer/>
       </>
    

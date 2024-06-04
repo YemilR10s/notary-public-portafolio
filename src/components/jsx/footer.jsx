@@ -96,10 +96,9 @@ export const Footer = () => {
                   </li>
 
                   <li><a href="/" 
-                          onClick={()=>{alert("no disponible")}}>
+                          >
                           {t("frequentQuestions")}</a>
                   </li>
-
                 </ul>
               </div>
 
