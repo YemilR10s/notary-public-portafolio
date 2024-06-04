@@ -50,7 +50,17 @@ export const Footer = () => {
                 </p>
                
               </div>
+  {/* ******************Payment Methods Accepted ***************+ */}
 
+              <div className="payment-methods">
+                <h3>Payment Methods Accepted</h3>
+                <ul>
+                  <li>Cash</li>
+                  <li>Cash App</li>
+                  <li>Zelle</li>
+                  <li>Apple Pay</li>
+                </ul>
+              </div>
   
   {/* ******************ZONAS CERCANAS ***************+ */}
               <div className="zonasCercnas">
