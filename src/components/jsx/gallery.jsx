@@ -6,6 +6,7 @@ import gallery2 from '/gallery2.jpg';
 import gallery3 from '/gallery3.jpg';
 import gallery4 from '/gallery4.jpg';
 import gallery6 from '/gallery6.jpg';
+import { Testimonios } from './testimonios';
 
 
 export const Gallery = () => {
@@ -30,7 +31,9 @@ export const Gallery = () => {
     </div>
 
     </div>
+    <Testimonios/>
     </>
+    
   );
 };
 

@@ -23,6 +23,7 @@ import esGallery from "./components/locales/gallery/esGallery.json"
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
 import { FAQ } from './components/jsx/fqa'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 // initialize i18next
@@ -66,16 +67,24 @@ function App() {
  
   return (  
       
-      <>
+    <BrowserRouter>
+    
       <Navbar/>
-  
-        <Home />
-        <Services/>
-        <Gallery/>
-        <Testimonios />
-        <FAQ/>
+
+      <Routes>
+
+        <Route exact path='/' element={<Home />}/>
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/testimonios' element={<Testimonios />}/>
+        <Route path='/faq' element={ <FAQ/>}/>
+
+      </Routes>
+
       <Footer/>
-      </>
+
+    </BrowserRouter>
+     
    
   );
 }

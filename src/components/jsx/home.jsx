@@ -1,4 +1,6 @@
 import '../styles/home.css';
+import { Services } from './services';
+import { Testimonios } from './testimonios';
 import imagenPortafolio from '/home.jpg';
 import logo1 from "/logo1.png"
 import logo2 from "/logo2.png"
@@ -68,6 +70,8 @@ export const Home = () => {
         <img src={logo3} alt="logo3" />
         <img src={logo4} alt="logo3" />
       </div>
+      <Services/>
+      <Testimonios/>
     </>
   )
 }

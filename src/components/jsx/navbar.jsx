@@ -3,6 +3,7 @@ import '../styles/navbar.css'
 import logo from "/logo.png"
 import {useTranslation} from "react-i18next"
 import {motion} from "framer-motion"
+import { Link } from 'react-router-dom'
 
 
 
@@ -30,10 +31,7 @@ export const Navbar = () => {
   return (
 
     <>
-    <motion.div className="navbar-container"
-    initial={{opacity:0, y:-100}}
-    animate={{opacity:1, y:0}}
-    transition={{duration: 1.5}}>
+    <div className="navbar-container">
     
     <div className="logo" >
       <img src={logo} alt="logo" />
@@ -41,11 +39,11 @@ export const Navbar = () => {
 
      <ul className={showMenu ? "items-container active": 'items-container'}>
 
-        <li><a href="#home">{t("home")}</a></li>
-        <li><a href="#services">{t("services")}</a></li>
-        <li><a href="#testimonios">{t("testimonials")}</a></li>
-        <li><a href="#gallery">{t("gallery")}</a></li>
-        <li><a href="#footer">{t("contact")}</a></li>
+        <li><Link to="/">{t("home")}</Link></li>
+        <li><Link to="/services">{t("services")}</Link></li>
+        <li><Link to="/testimonios">{t("testimonials")}</Link></li>
+        <li><Link to="/gallery">{t("gallery")}</Link></li>
+        
         
 
     <select className="idiomas" onChange={handleSelectChange}>
@@ -57,7 +55,7 @@ export const Navbar = () => {
 
      <i onClick={toggleMenu} className={showMenu ? "fa-solid fa-xmark" :"fa-solid fa-bars"}></i>
 
-    </motion.div>
+    </div>
     </>
   )
 }
