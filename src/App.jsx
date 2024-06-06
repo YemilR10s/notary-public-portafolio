@@ -73,11 +73,11 @@ function App() {
 
       <Routes>
 
-        <Route exact path='/' element={<Home />}/>
-        <Route path='/services' element={<Services/>}/>
-        <Route path='/gallery' element={<Gallery/>}/>
-        <Route path='/testimonios' element={<Testimonios />}/>
-        <Route path='/faq' element={ <FAQ/>}/>
+        <Route path='/notary-public-portafolio/' element={<Home />}/>
+        <Route path='/notary-public-portafolio/services' element={<Services/>}/>
+        <Route path='/notary-public-portafolio/gallery' element={<Gallery/>}/>
+        <Route path='/notary-public-portafolio/testimonios' element={<Testimonios />}/>
+        <Route path='/notary-public-portafolio/faq' element={ <FAQ/>}/>
 
       </Routes>
 
