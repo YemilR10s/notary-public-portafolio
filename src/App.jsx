@@ -1,28 +1,32 @@
-import { Footer } from './components/jsx/footer'
-import { Home } from './components/jsx/home'
-import { Navbar } from './components/jsx/navbar'
-import { Gallery } from './components/jsx/gallery'
-import { Services } from './components/jsx/services'
-import { Testimonios } from './components/jsx/testimonios' 
+/* components */
+import { Footer } from './components/footer'
+import { Home } from './components/home'
+import { Navbar } from './components/navbar'
+import { Gallery } from './components/gallery'
+import { Testimonios } from './components/testimonios' 
 
- import enTraslation from "./components/locales/en.json"
-import esTraslation from "./components/locales/es.json" 
-import esHome from "./components/locales/homeT/esHome.json" 
-import enHome from "./components/locales/homeT/enHome.json" 
-import enServices from "./components/locales/servicesT/enServices.json" 
-import esServices from "./components/locales/servicesT/esServices.json" 
-import enFooter from "./components/locales/footerT/enFooter.json" 
-import esFooter from "./components/locales/footerT/esFooter.json" 
-import enTestimony from "./components/locales/testimonios/enTestimonios.json" 
-import esTestimony from "./components/locales/testimonios/esTestimonios.json" 
-import esTestimonyCarrusel from "./components/locales/testimonios/esTestimoniosCarrusel.json" 
-import enTestimonyCarrusel from "./components/locales/testimonios/enTestimoniosCarrusel.json" 
-import enGallery from "./components/locales/gallery/enGallery.json" 
-import esGallery from "./components/locales/gallery/esGallery.json" 
+/* pages */
+import { ServicesPage } from './pages/servicesPage'
+
+/* locales translation */
+import enTraslation from "./locales/en.json"
+import esTraslation from "./locales/es.json" 
+import esHome from "./locales/homeT/esHome.json" 
+import enHome from "./locales/homeT/enHome.json" 
+import enServices from "./locales/servicesT/enServices.json" 
+import esServices from "./locales/servicesT/esServices.json" 
+import enFooter from "./locales/footerT/enFooter.json" 
+import esFooter from "./locales/footerT/esFooter.json" 
+import enTestimony from "./locales/testimonios/enTestimonios.json" 
+import esTestimony from "./locales/testimonios/esTestimonios.json" 
+import esTestimonyCarrusel from "./locales/testimonios/esTestimoniosCarrusel.json" 
+import enTestimonyCarrusel from "./locales/testimonios/enTestimoniosCarrusel.json" 
+import enGallery from "./locales/gallery/enGallery.json" 
+import esGallery from "./locales/gallery/esGallery.json" 
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
-import { FAQ } from './components/jsx/fqa'
+import { FAQ } from './components/fqa'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
@@ -74,7 +78,7 @@ function App() {
       <Routes>
 
         <Route path='/notary-public-portafolio/' element={<Home />}/>
-        <Route path='/notary-public-portafolio/services' element={<Services/>}/>
+        <Route path='/notary-public-portafolio/services' element={<ServicesPage/>}/>
         <Route path='/notary-public-portafolio/gallery' element={<Gallery/>}/>
         <Route path='/notary-public-portafolio/testimonios' element={<Testimonios />}/>
         <Route path='/notary-public-portafolio/faq' element={ <FAQ/>}/>

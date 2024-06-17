@@ -14,9 +14,6 @@ export const Services = () => {
     <>
     <div className="services-section" id='services'>
     
-        <h2
-           className='servicesTitle'>{t("ourServices")}
-        </h2>
 
 
       <div className="services-icon">

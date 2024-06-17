@@ -2,7 +2,6 @@ import { useState } from 'react'
 import '../styles/navbar.css'
 import logo from "/logo.png"
 import {useTranslation} from "react-i18next"
-import {motion} from "framer-motion"
 import { Link } from 'react-router-dom'
 
 

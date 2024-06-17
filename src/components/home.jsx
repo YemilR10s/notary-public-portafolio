@@ -16,10 +16,6 @@ export const Home = () => {
 
   const {t} = useTranslation()
   
-  /* const [texto] = useTypewriter({
-    words:[ t("notary"), t("experience")],
-    loop: [],
-  }) */
   return (
     <>
     <motion.div className="home-section" id='home' >
@@ -29,8 +25,6 @@ export const Home = () => {
             animate={{opacity:1 , x:0}}
             transition={{duration: 1.5}}>
 
-            {/* <h1>{texto}<Cursor/></h1>
-            <p>{t('description')}</p> */}
 
             <h1 dangerouslySetInnerHTML={{ __html: t('description') }}></h1>
 

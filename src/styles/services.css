@@ -1,3 +1,17 @@
+/* services pages */
+
+.services-Img-Title{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url(../../../public/servicesIMG.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* services component */
 .services-section{
     background: var(--color4);
     padding: 4em 0;

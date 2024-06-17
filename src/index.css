@@ -8,10 +8,9 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: "Rajdhani", sans-serif;
-  font-style: normal;
-  
-  
+  font-style: normal; 
 }
+
 :root{
   --color1: #083358 ;
   --color2: #0F4471;
