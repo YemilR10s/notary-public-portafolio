@@ -3,10 +3,11 @@ import { Footer } from './components/footer'
 import { Home } from './components/home'
 import { Navbar } from './components/navbar'
 import { Gallery } from './components/gallery'
-import { Testimonios } from './components/testimonios' 
 
 /* pages */
 import { ServicesPage } from './pages/servicesPage'
+import { TestimonialsPage } from './pages/testimonialsPage'
+
 
 /* locales translation */
 import enTraslation from "./locales/en.json"
@@ -23,11 +24,14 @@ import esTestimonyCarrusel from "./locales/testimonios/esTestimoniosCarrusel.jso
 import enTestimonyCarrusel from "./locales/testimonios/enTestimoniosCarrusel.json" 
 import enGallery from "./locales/gallery/enGallery.json" 
 import esGallery from "./locales/gallery/esGallery.json" 
+import enAboutMe from "./locales/aboutMeT/enAboutMe.json"
+import esAboutMe from "./locales/aboutMeT/esAboutMe.json"
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
 import { FAQ } from './components/fqa'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { AboutMePage } from './pages/aboutMePage'
 
 
 // initialize i18next
@@ -44,7 +48,8 @@ i18n
            ...enFooter,
            ...enTestimony,
            ...enTestimonyCarrusel,
-           ...enGallery
+           ...enGallery,
+           ...enAboutMe
         }
       },
       es: {translation: {
@@ -54,7 +59,9 @@ i18n
           ...esFooter,
           ...esTestimony,
           ...esTestimonyCarrusel,
-          ...esGallery
+          ...esGallery,
+          ...esAboutMe
+
       }}
     }
     ,
@@ -80,7 +87,8 @@ function App() {
         <Route path='/notary-public-portafolio/' element={<Home />}/>
         <Route path='/notary-public-portafolio/services' element={<ServicesPage/>}/>
         <Route path='/notary-public-portafolio/gallery' element={<Gallery/>}/>
-        <Route path='/notary-public-portafolio/testimonios' element={<Testimonios />}/>
+        <Route path='/notary-public-portafolio/testimonios' element={<TestimonialsPage />}/>
+        <Route path='/notary-public-portafolio/AboutMePage' element={<AboutMePage />}/>
         <Route path='/notary-public-portafolio/faq' element={ <FAQ/>}/>
 
       </Routes>

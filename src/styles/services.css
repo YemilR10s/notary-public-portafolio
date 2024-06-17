@@ -1,13 +1,19 @@
 /* services pages */
 
 .services-Img-Title{
-    margin: 0;
-    padding: 0;
     width: 100%;
     height: 500px;
-    background-image: url(../../../public/servicesIMG.jpg);
+    background-image: url(../../public/servicesIMG.jpg);
     background-position: center;
     background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-Img-Title .servicesH2{
+    font-size: 4em;
+    color: var(--color3);
 }
 
 

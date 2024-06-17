@@ -1,8 +1,26 @@
+/* testimonials page */
+.testimonialsPage{
+width: 100%;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(../../public/testimonials.jpg);
+background-position: center;
+background-size: cover;
+
+}
+.testimonialsPage .theySay{
+    color: var(--color3);
+    font-size: 5em;
+}
+
+/* testimonials components */
 .testimoniosContainer{
     width: 100%;
-    height: 800px;
+    height: 700px;
     overflow: hidden;
-    background-image: url(../../../public/mapa.png);
+    background-image: url(../../public/mapa.png);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -26,10 +44,10 @@
 
 
 .testimoniosContainer .testimonios .google{
-    width: 400px;
+    width: 500px;
     height: 200px;
-    background-image: url(/public/google.png);
-    margin-top: -100px;
+    background-image: url(../../public/google.png);
+    margin-top: 50px;
     background-size: cover;
     background-position: center;
     
@@ -80,7 +98,7 @@
         width: 400px;
         height: 200px;
         background-image: url(/public/google.png);
-        margin-top: -40px;
+        margin-top: 40px;
         
     }
         

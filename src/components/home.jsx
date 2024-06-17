@@ -1,4 +1,5 @@
 import '../styles/home.css';
+import { Payments } from './payments';
 import { Services } from './services';
 import { Testimonios } from './testimonios';
 import imagenPortafolio from '/home.jpg';
@@ -66,6 +67,7 @@ export const Home = () => {
       </div>
       <Services/>
       <Testimonios/>
+      <Payments/>
     </>
   )
 }

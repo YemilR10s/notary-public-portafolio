@@ -40,7 +40,7 @@ export const Navbar = () => {
 
         <li><Link to="/notary-public-portafolio/">{t("home")}</Link></li>
         <li><Link to="/notary-public-portafolio/services">{t("services")}</Link></li>
-        <li><Link to="/notary-public-portafolio/testimonios">{t("testimonials")}</Link></li>
+        <li><Link to="/notary-public-portafolio/aboutMePage">{t("aboutME")}</Link></li>
         <li><Link to="/notary-public-portafolio/gallery">{t("gallery")}</Link></li>
         
         

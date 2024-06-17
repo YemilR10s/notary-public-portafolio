@@ -3,11 +3,6 @@ import { CardTestimonios } from "./cardTestimonios"
 import "../styles/testimonios.css"
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
-import { FAQ } from "./fqa";
-
-
-
-
 
 
 export const Testimonios = () => {
@@ -61,7 +56,6 @@ export const Testimonios = () => {
 
 
       <div className="testimonios">
-          <h2>{t("testimony")}</h2>
           <div className="google"></div>
           <div className="p-e-container">
             <div className="estrellas"></div>
@@ -90,7 +84,6 @@ export const Testimonios = () => {
       ))}
       </Slider>
     </div>
-    <FAQ/>
     </>
   )
 }

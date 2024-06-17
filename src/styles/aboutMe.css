@@ -1,0 +1,206 @@
+.aboutMeIMG{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../public/aboutMeIMG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aboutMeIMG .aboutMeH2{
+    font-size: 4em;
+}
+.aboutMeArticle{
+    width: 100%;
+    display: flex;
+}
+.aboutMeArticle .leftIMG{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMeArticle .leftIMG img{
+    width: 400px;
+    height: 500px;
+    border-radius: 20%;
+}
+.aboutMeArticle .rightText{
+    width: 50%;
+    padding: 0 40px;
+    font-size: 2em;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMeFooter{
+    display: flex;
+    margin: 50px;
+}
+
+.notaryPublic,
+.realEstate,
+.paralegal {
+    margin: 15px auto;
+    width: 400px;
+    text-align: start;
+}
+.notaryPublic h3,
+.realEstate h3,
+.paralegal h3{
+    color: var(--color2);
+}
+.notaryPublic .date,
+.realEstate .date,
+.paralegal .date{
+    font-weight: 100;
+}
+.notaryPublic .text,
+.realEstate .text,
+.paralegal .text{
+    font-weight: 500;
+}
+
+                                        /* responsive 1024px */
+
+@media (max-width:1024px) {
+.notaryPublic,
+.realEstate,
+.paralegal {
+    margin: 15px auto;
+    width: 300px;
+    text-align: start;
+}
+}
+
+
+                                    /* responsive 768px*/
+
+@media (max-width:768px) {
+
+    .aboutMeArticle{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMeArticle .leftIMG{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .aboutMeArticle .rightText{
+        width: 80%;
+        height: 200px;
+        margin: 0 50px;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .notaryPublic,
+    .realEstate,
+    .paralegal {
+    margin: 15px auto;
+    width: 200px;
+    text-align: start;
+}
+
+}
+
+                                    /* responsive 425px*/
+
+@media (max-width:426px) {
+
+    .aboutMeArticle{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMeArticle .leftIMG{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .aboutMeArticle .rightText{
+        width: 90%;
+        height: 400px;
+        margin: 0;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .aboutMeFooter{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+    .notaryPublic,
+    .realEstate,
+    .paralegal {
+    margin: 15px auto;
+    width: 300px;
+    text-align: start;
+}
+
+}
+                                    /* responsive 320px*/
+
+@media (max-width:321px) {
+
+    .aboutMeArticle{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutMeArticle .leftIMG{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding: 0;
+    }
+    .aboutMeArticle .leftIMG img{
+        width: 320px;
+        height: 500px;
+        border-radius: 0%;
+    }
+    .aboutMeArticle .rightText{
+        width: 90%;
+        height: 400px;
+        margin: 0;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+    }
+    .aboutMeFooter{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .notaryPublic,
+    .realEstate,
+    .paralegal {
+    margin: 15px auto;
+    width: 300px;
+    text-align: start;
+}
+
+}

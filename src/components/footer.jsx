@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next"
 import "../styles/footer.css"
+import { Link } from "react-router-dom"
 export const Footer = () => {
   const {t } = useTranslation()
   return (
@@ -50,17 +51,7 @@ export const Footer = () => {
                 </p>
                
               </div>
-  {/* ******************Payment Methods Accepted ***************+ */}
 
-              <div className="payment-methods">
-                <h3>Payment Methods Accepted</h3>
-                <ul>
-                  <li>Cash</li>
-                  <li>Cash App</li>
-                  <li>Zelle</li>
-                  <li>Apple Pay</li>
-                </ul>
-              </div>
   
   {/* ******************ZONAS CERCANAS ***************+ */}
               <div className="zonasCercnas">
@@ -105,9 +96,8 @@ export const Footer = () => {
                           {t("PrivacyConfidentiality")}</a>
                   </li>
 
-                  <li><a href="/" 
-                          >
-                          {t("frequentQuestions")}</a>
+                  <li><Link to="/notary-public-portafolio/testimonios">
+                          {t("frequentQuestions")}</Link>
                   </li>
                 </ul>
               </div>
