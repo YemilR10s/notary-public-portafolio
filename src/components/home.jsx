@@ -65,7 +65,9 @@ export const Home = () => {
         <img src={logo3} alt="logo3" />
         <img src={logo4} alt="logo3" />
       </div>
+      <h2 className='ourServicesH2Home'>{t("ourServices")}</h2>
       <Services/>
+      <h2 className='testimonyH2Home'>{t("testimony")}</h2>
       <Testimonios/>
       <Payments/>
     </>

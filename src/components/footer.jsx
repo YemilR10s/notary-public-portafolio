@@ -76,14 +76,11 @@ export const Footer = () => {
 
                 <ul>
 
-                  <li><a href="/" 
-                          onClick={()=>{alert("no disponible")}}>
-                          {t("aboutLidia")}</a>
-                  </li>
+                  
 
-                  <li><a href="/"
-                          onClick={()=>{alert("no disponible")}}>
-                            {t("legalInformation")}</a>
+                  <li><Link to="/notary-public-portafolio/LegalInfoPage"
+                          >
+                            {t("legalInformation")}</Link>
                   </li>
 
                   <li><a href="/"

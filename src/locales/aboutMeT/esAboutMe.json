@@ -2,8 +2,15 @@
     "aboutMeH2": "Sobre Mi",
 
 
-
-    "rightTextP":"Con una experiencia diversa y extensa en bienes raíces y servicios notariales, me he desempeñado como notario público desde 2011, corredor de bienes raíces desde 2007 y asistente legal desde 2023. Mi experiencia multifacética me permite brindar asistencia integral y confiable en todo diversos sectores.",
+    "rightTextP": {
+        "part1": "Lidia Saca es una profesional distinguida que ha dedicado su carrera a servir a su comunidad con una amplia experiencia en múltiples campos. Como agente de firmas certificada, corredora de bienes raíces y preparadora de documentos de inmigración, Lidia se ha convertido en una figura confiable y respetada, ayudando a individuos y familias a navegar por procesos complejos con confianza y cuidado.\n\nCreciendo con un fuerte sentido de comunidad y un deseo de ayudar a los demás, Lidia persiguió su educación diligentemente, enfocándose en adquirir habilidades y conocimientos que le permitieran tener un impacto significativo. Su trayectoria académica sentó una base sólida para su carrera multifacética.",
+        "part2": "Como agente de firmas certificada, Lidia encarna la precisión, la integridad y una profunda comprensión de la documentación legal. En esta capacidad, ha facilitado innumerables transacciones inmobiliarias, asegurando que los documentos sean debidamente firmados, notariados y archivados. Su meticulosa atención al detalle y compromiso con la precisión la han convertido en una agente de firmas confiable y solicitada.",
+        "part3": "Ampliando su alcance profesional, Lidia obtuvo su licencia como corredora de bienes raíces. En este rol, asiste a sus clientes en la compra, venta y alquiler de propiedades. Su conocimiento integral del mercado inmobiliario, combinado con sus habilidades de negociación y dedicación a la satisfacción del cliente, ha ayudado a muchas personas y familias a encontrar la casa de sus sueños y tomar decisiones de inversión acertadas. El enfoque centrado en el cliente de Lidia se centra en entender sus necesidades y proporcionar un servicio personalizado.",
+        "part4": "Reconociendo los desafíos que enfrentan los inmigrantes, Lidia también se convirtió en preparadora de documentos de inmigración. Ella ofrece servicios esenciales a aquellos que navegan por la complejidad del papeleo de inmigración. Su experiencia en la preparación y presentación de documentos de inmigración ha sido invaluable para sus clientes, ofreciéndoles orientación y apoyo durante lo que puede ser un proceso desalentador. La empatía y sensibilidad cultural de Lidia aseguran que cada cliente se sienta comprendido y bien apoyado.",
+        "part5": "El compromiso de Lidia con su comunidad va más allá de sus roles profesionales. Siempre está buscando formas de devolver a la comunidad, y su servicio comunitario es un testimonio de su creencia en la importancia de ayudar a los demás y hacer un impacto positivo. Su dedicación está arraigada en su fe en Dios, que guía sus esfuerzos para mejorar las vidas de quienes la rodean.",
+        "part6": "Fuera de sus actividades profesionales, Lidia disfruta pasar tiempo con su familia y amigos. Es apasionada por el aprendizaje continuo y a menudo se involucra en actividades que amplían sus conocimientos y habilidades. Su vida personal está marcada por la misma dedicación y pasión que definen su carrera profesional.",
+        "part7": "Lidia Saca ejemplifica los valores de trabajo duro, dedicación y servicio. Su diversa experiencia y compromiso con ayudar a los demás la han convertido en una figura respetada y querida en su comunidad. A través de su trabajo profesional y servicio comunitario, Lidia continúa haciendo una diferencia positiva en las vidas de aquellos a quienes sirve."
+      },
 
 
 
@@ -25,8 +32,8 @@
 
 
 
-    "paralegalH3":"asistente legal",
-    "paralegalDate":"2023-Presente",
-    "paralegalText":"Como asistente legal reciente, ofrezco un valioso apoyo en investigación legal, preparación de documentos y gestión de casos. Mi experiencia como asistente legal complementa mis servicios notariales y de bienes raíces, brindando a los clientes un enfoque integral e informado para sus necesidades legales y transaccionales."
+    "immigrationH3":"Preparador de documentos de inmigración",
+    "immigrationDate":"2023-Presente",
+    "immigrationText":"Como preparador de documentos de inmigración ofrezco un valioso apoyo en la investigación legal, preparación de documentos y gestión de casos. Mi experiencia como asistente legal complementa mis servicios notariales y de bienes raíces, brindando a los clientes un enfoque integral e informado de sus necesidades legales y transaccionales."
 
 }

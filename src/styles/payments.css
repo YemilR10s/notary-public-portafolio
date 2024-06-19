@@ -1,11 +1,11 @@
 .securePaymentsH3{
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--color1);
 }
 .payments{
-    width: 700px;
-    height: 200px;
+    width: 400px;
+    height: 150px;
     text-align: center;
     margin: 20px auto;
     display: flex;
@@ -16,7 +16,7 @@
 }
 .payments img{
     padding: 10px;
-    width: 150px;
+    width: 80px;
     
 }
 @media (max-width: 426px) {

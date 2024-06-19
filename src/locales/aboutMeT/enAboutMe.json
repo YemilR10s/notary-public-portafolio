@@ -4,7 +4,22 @@
 
 
 
-    "rightTextP":"With a diverse and extensive background in real estate, and notarial services, I have been serving as a Notary Public since 2011, a Real Estate Broker since 2007, and a Paralegal since 2023. My multifaceted expertise enables me to provide comprehensive and reliable assistance across various sectors.",
+    
+    "rightTextP": {
+        "part1": "Lidia Saca is a distinguished professional who has dedicated her career to serving her community with extensive expertise in multiple fields. As a certified signing agent, real estate broker, and immigration document preparer, Lidia has become a trusted and respected figure, helping individuals and families navigate complex processes with confidence and care.\n\nGrowing up with a strong sense of community and a desire to help others, Lidia pursued her education diligently, focusing on acquiring skills and knowledge that would enable her to make a meaningful impact. Her academic journey laid a solid foundation for her multifaceted career.",
+        "part2": "As a certified signing agent, Lidia embodies precision, integrity, and a deep understanding of legal documentation. In this capacity, she has facilitated countless real estate transactions, ensuring that documents are properly signed, notarized, and filed. Her meticulous attention to detail and commitment to accuracy have made her a reliable and sought-after signing agent.",
+        "part3": "Expanding her professional scope, Lidia obtained her license as a real estate broker. In this role, she assists clients in buying, selling, and renting properties. Her comprehensive knowledge of the real estate market, combined with her negotiation skills and dedication to client satisfaction, has helped many individuals and families find their dream homes and make sound investment decisions. Lidia's client-centric approach focuses on understanding their needs and providing personalized service.",
+        "part4": "Recognizing the challenges faced by immigrants, Lidia also became an immigration document preparer. She provides essential services to those navigating the complexities of immigration paperwork. Her expertise in preparing and filing immigration documents has been invaluable to her clients, offering them guidance and support during what can be a daunting process. Lidia's empathy and cultural sensitivity ensure that each client feels understood and well-supported.",
+        "part5": "Lidia's commitment to her community extends beyond her professional roles. She is always looking for ways to give back, and her community service is a testament to her belief in the importance of helping others and making a positive impact. Her dedication is rooted in her faith in God, which guides her efforts to improve the lives of those around her.",
+        "part6": "Outside of her professional endeavors, Lidia enjoys spending time with her family and friends. She is passionate about continuous learning and often engages in activities that broaden her knowledge and skills. Her personal life is marked by the same dedication and passion that define her professional career.",
+        "part7": "Lidia Saca exemplifies the values of hard work, dedication, and service. Her diverse expertise and commitment to helping others have made her a respected and beloved figure in her community. Through her professional work and community service, Lidia continues to make a positive difference in the lives of those she serves."
+      },  
+      
+      
+      
+      
+
+    
     "notaryPublicH3": "Notary Public",
     "notaryPublicDate": "2011-Present",
     "notaryPublicText": " For over a decade, I have been a trusted Notary Public, ensuring the authenticity of documents, administering oaths, and serving as an impartial witness to signatures. My attention to detail and adherence to legal standards guarantee the integrity of all notarized documents.",
@@ -22,8 +37,8 @@
 
 
 
-    "paralegalH3":"Paralegal",
-    "paralegalDate":"2023-Present",
-    "paralegalText":" As a recent Paralegal, I offer valuable support in legal research, document preparation, and case management. My paralegal expertise complements my notarial and real estate services, providing clients with a well-rounded and informed approach to their legal and transactional needs."
+    "immigrationH3":"Immigration document preparer",
+    "immigrationDate":"2023-Present",
+    "immigrationText":" As an immigration document preparer I offer valuable support in legal research, document preparation and case management. My experience as a paralegal complements my notary and real estate services, providing clients with a comprehensive and informed approach to their legal and transactional needs."
 
 }

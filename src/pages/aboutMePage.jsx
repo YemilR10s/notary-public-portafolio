@@ -21,29 +21,38 @@ export const AboutMePage = () => {
         </div>
 
         <div className="rightText">
-            <p>{t("rightTextP")}</p>
+
+            <div className="notaryPublic">
+            <h3>{t("notaryPublicH3")}</h3>
+            <p className="date">{t("notaryPublicDate")}</p>
+            <p className="text">{t("notaryPublicText")}</p>
+            </div>
+
+            <div className="realEstate">
+            <h3>{t("realEstateH3")}</h3>
+            <p className="date">{t("realEstateDate")}</p>
+            <p className="text">{t("realEstateText")}</p>
+            </div>
+
+            <div className="immigration">
+            <h3>{t("immigrationH3")}</h3>
+            <p className="date">{t("immigrationDate")}</p>
+            <p className="text">{t("immigrationText")}</p>
+            </div>
+
         </div>
         </div>
 
 
         <div className="aboutMeFooter">
-            <div className="notaryPublic">
-            <h3>{t("notaryPublicH3")}</h3>
-            <p className="date">{t("notaryPublicDate")}</p>
-            <p className="text">{t("notaryPublicText")}</p>
-             
-            </div>
-            <div className="realEstate">
-            <h3>{t("realEstateH3")}</h3>
-            <p className="date">{t("realEstateDate")}</p>
-            <p className="text">{t("realEstateText")}</p>
-              
-            </div>
-            <div className="paralegal">
-            <h3>{t("paralegalH3")}</h3>
-            <p className="date">{t("paralegalDate")}</p>
-            <p className="text">{t("paralegalText")}</p>
-            </div>
+            
+            <p>{t('rightTextP.part1')}</p>
+            <p>{t('rightTextP.part2')}</p>
+            <p>{t('rightTextP.part3')}</p>
+            <p>{t('rightTextP.part4')}</p>
+            <p>{t('rightTextP.part5')}</p>
+            <p>{t('rightTextP.part6')}</p>
+            <p>{t('rightTextP.part7')}</p>
 
         </div>
 

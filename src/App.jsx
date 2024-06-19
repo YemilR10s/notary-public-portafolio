@@ -32,6 +32,7 @@ import i18n from 'i18next'
 import { FAQ } from './components/fqa'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { AboutMePage } from './pages/aboutMePage'
+import { LegalInfoPage } from './pages/legalInfoPage'
 
 
 // initialize i18next
@@ -90,6 +91,7 @@ function App() {
         <Route path='/notary-public-portafolio/testimonios' element={<TestimonialsPage />}/>
         <Route path='/notary-public-portafolio/AboutMePage' element={<AboutMePage />}/>
         <Route path='/notary-public-portafolio/faq' element={ <FAQ/>}/>
+        <Route path='/notary-public-portafolio/legalInfoPage' element={ <LegalInfoPage/>}/>
 
       </Routes>
 
