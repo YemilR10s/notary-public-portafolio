@@ -88,9 +88,9 @@ export const Footer = () => {
                             {t("formsDocuments")}</a>
                   </li>
 
-                  <li><a href="/"
-                          onClick={()=>{alert("no disponible")}}>
-                          {t("PrivacyConfidentiality")}</a>
+                  <li><Link to='/notary-public-portafolio/PrivacyAndConfidentiality'
+                          >
+                          {t("PrivacyConfidentiality")}</Link>
                   </li>
 
                   <li><Link to="/notary-public-portafolio/testimonios">

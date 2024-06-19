@@ -1,0 +1,28 @@
+{   "legalInformationH2":"Informacion legal",
+    "notarizations": {
+      "typesTitle": "Tipos de Notarizaciones",
+      "acknowledgmentTitle": "Reconocimiento:",
+      "acknowledgment": "Un reconocimiento asegura que el firmante del documento es quien dice ser y ha firmado el documento voluntariamente. Este tipo de notarización a menudo es requerido para documentos que involucran activos valiosos, como escrituras, hipotecas y escrituras de fideicomiso.",
+      "juratTitle": "Jurat:",
+      "jurat": "Un jurat requiere que el firmante jure o afirme que el contenido de un documento es verdadero. Esta notarización también se conoce como declaración jurada o verificación bajo juramento o afirmación, dependiendo de la jurisdicción. El jurat implica que el notario presencie la firma del documento y administre un juramento o afirmación al firmante.",
+      "oathTitle": "Juramento o Afirmación:",
+      "oath": "Un juramento o afirmación se administra oralmente en lugar de como parte de un jurat, declaración jurada u otro documento escrito. El propósito de administrar un juramento o afirmación verbal es obligar al cliente a decir la verdad y asegurarse de que estén legalmente vinculados a sus declaraciones.",
+      "copyTitle": "Certificación de Copias:",
+      "copy": "La certificación de copias confirma que una reproducción de un documento original es una transcripción o reproducción completa, verdadera y precisa del original. Este tipo de notarización es útil cuando se requiere una copia exacta de un documento para fines legales, pero no se puede liberar el documento original."
+    },
+    "additionalInfo": {
+      "title": "Información Adicional",
+      "signatureWitnessing": "Testimonio de Firma: Un notario público también puede servir como testigo de la firma de un documento, verificando la identidad de los firmantes y presenciando el proceso de firma. Este servicio se utiliza a menudo para documentos legales, contratos y acuerdos que requieren verificación de terceros.",
+      "electronicNotarization": "Notarización Electrónica: Con los avances tecnológicos, la notarización electrónica se ha vuelto más común. Este proceso implica que el notario público use firmas y sellos electrónicos para notarizar documentos digitales. La notarización electrónica proporciona el mismo nivel de autenticación y seguridad que la notarización tradicional y es reconocida por muchas jurisdicciones.",
+      "apostilleServices": "Servicios de Apostilla: Para documentos que necesitan ser utilizados internacionalmente, un notario público puede facilitar el proceso de apostilla. Una apostilla es una certificación proporcionada bajo la Convención de Apostilla de La Haya para documentos que deben ser reconocidos en países extranjeros. Este servicio asegura que sus documentos notariados sean aceptados en el extranjero.",
+      "mobileNotaryServices": "Servicios de Notario Móvil: Para mayor comodidad, muchos notarios ofrecen servicios de notario móvil, donde el notario se desplaza a la ubicación del cliente para realizar las notarizaciones. Este servicio es especialmente útil para clientes con problemas de movilidad o aquellos que requieren notarización fuera del horario comercial regular."
+    },
+    "preparation": {
+      "title": "Cómo Prepararse para la Notarización",
+      "validID": "Lleve una Identificación Válida: Asegúrese de tener una identificación con foto emitida por el gobierno vigente, como una licencia de conducir, pasaporte o tarjeta de identificación estatal. La identificación debe contener una fotografía y firma.",
+      "completeDocuments": "Documentos Completos: Asegúrese de que todos los documentos estén completamente llenos, pero no los firme antes de reunirse con el notario.",
+      "notarizationType": "Conozca el Tipo de Notarización: Entienda qué tipo de notarización se requiere para su documento. Si no está seguro, consulte con el notario o la parte solicitante.",
+      "witnesses": "Testigos: Si su documento requiere testigos, haga arreglos para que estén presentes durante la notarización. Algunas jurisdicciones tienen requisitos específicos con respecto a los testigos."
+    }
+  }
+  

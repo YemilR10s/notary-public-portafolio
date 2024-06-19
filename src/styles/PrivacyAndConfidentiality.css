@@ -1,0 +1,54 @@
+.privacyContainerIMG{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../public/pravacyAndConfidentiality.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.PrivacyAndConfidentialityH2{
+  font-size: 4em;
+  color: var(--color3);
+}
+.textContainerPrivacy{
+  margin: 0 300px;
+}
+@media (max-width: 1024px) {
+
+  .textContainerPrivacy{
+    margin: 0 200px;
+  }
+  
+}
+@media (max-width: 768px) {
+
+  .textContainerPrivacy{
+    margin: 0 100px;
+  }
+  
+}
+@media (max-width: 426px) {
+  .PrivacyAndConfidentialityH2{
+    font-size: 3em;
+    
+  }
+
+  .textContainerPrivacy{
+    margin: 0 50px;
+  }
+  
+}
+@media (max-width: 320px) {
+  .PrivacyAndConfidentialityH2{
+    font-size: 3em;
+    
+  }
+
+  .textContainerPrivacy{
+    margin: 0 20px;
+  }
+  
+}

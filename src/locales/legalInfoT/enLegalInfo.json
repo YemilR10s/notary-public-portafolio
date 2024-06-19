@@ -1,0 +1,29 @@
+
+    { "legalInformationH2":"legal Information ",
+        "notarizations": {
+          "typesTitle": "Types of Notarizations",
+          "acknowledgmentTitle": "Acknowledgment:",
+          "acknowledgment": "An acknowledgment ensures that the document’s signer is who they claim to be and has voluntarily signed the document. This type of notarization is often required for documents involving valuable assets, such as deeds, mortgages, and deeds of trust.",
+          "juratTitle": "Jurat:",
+          "jurat": "A jurat requires the signer to swear or affirm that the contents of a document are true. This notarization is also known as an affidavit or a verification on oath or affirmation, depending on the jurisdiction. The jurat involves the notary witnessing the signing of the document and administering an oath or affirmation to the signer.",
+          "oathTitle": "Oath or Affirmation:",
+          "oath": "An oath or affirmation is administered orally rather than as part of a jurat, affidavit, or other written document. The purpose of administering a verbal oath or affirmation is to compel the client to truthfulness and ensure they are legally bound to their statements.",
+          "copyTitle": "Copy Certification:",
+          "copy": "Copy certification confirms that a reproduction of an original document is a full, true, and accurate transcription or reproduction of the original. This type of notarization is useful when an exact copy of a document is required for legal purposes, but the original document cannot be released."
+        },
+        "additionalInfo": {
+          "title": "Additional Information",
+          "signatureWitnessing": "Signature Witnessing: A notary public can also serve as a witness to the signing of a document, verifying the identity of the signers and witnessing the signing process. This service is often used for legal documents, contracts, and agreements that require third-party verification.",
+          "electronicNotarization": "Electronic Notarization: With advancements in technology, electronic notarization has become more common. This process involves the notary public using electronic signatures and seals to notarize digital documents. Electronic notarization provides the same level of authentication and security as traditional notarization and is recognized by many jurisdictions.",
+          "apostilleServices": "Apostille Services: For documents that need to be used internationally, a notary public can facilitate the apostille process. An apostille is a certification provided under the Hague Apostille Convention for documents that need to be recognized in foreign countries. This service ensures that your notarized documents will be accepted abroad.",
+          "mobileNotaryServices": "Mobile Notary Services: For added convenience, many notaries offer mobile notary services, where the notary travels to the client’s location to perform notarizations. This service is especially useful for clients with mobility issues or those requiring notarization outside regular business hours."
+        },
+        "preparation": {
+          "title": "How to Prepare for Notarization",
+          "validID": "Bring Valid Identification: Ensure you have a current, government-issued photo ID such as a driver's license, passport, or state ID card. The ID must contain a photograph and signature.",
+          "completeDocuments": "Complete Documents: Make sure all documents are filled out completely, but do not sign them before meeting with the notary.",
+          "notarizationType": "Know the Notarization Type: Understand which type of notarization is required for your document. If unsure, consult with the notary or the requesting party.",
+          "witnesses": "Witnesses: If your document requires witnesses, arrange for them to be present during the notarization. Some jurisdictions have specific requirements regarding witnesses."
+        }
+      }
+      

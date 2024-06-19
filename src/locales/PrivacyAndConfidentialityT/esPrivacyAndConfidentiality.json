@@ -1,0 +1,55 @@
+{
+    "privacy": {
+      "PrivacyAndConfidentialityH2":"Privacidad Y Confidencialidad",
+      "introductionTitle": "Introducción",
+      "introductionText": "Valoramos su privacidad y estamos comprometidos a proteger su información personal. Esta Declaración de Privacidad y Confidencialidad describe cómo recopilamos, usamos, divulgamos y protegemos su información cuando visita nuestro sitio web y utiliza nuestros servicios. Lea esta declaración cuidadosamente para comprender nuestras prácticas con respecto a sus datos personales.",
+      
+      "informationWeCollectTitle": "Información que Recopilamos",
+      "personalInformationTitle": "Información Personal:",
+      "personalInformationText": "Cuando utiliza nuestros servicios, podemos recopilar información personal como su nombre, dirección de correo electrónico, número de teléfono, dirección postal y cualquier otra información que elija proporcionar.",
+      "usageInformationTitle": "Información de Uso:",
+      "usageInformationText": "Recopilamos información sobre sus interacciones con nuestro sitio web, incluida la dirección IP, el tipo de navegador, el sistema operativo, las URL de referencia y las páginas vistas.",
+      
+      "howWeUseTitle": "Cómo Usamos Su Información",
+      "providingServicesTitle": "Provisión de Servicios:",
+      "providingServicesText": "Para proporcionar, operar, mantener y mejorar nuestros servicios.",
+      "communicationTitle": "Comunicación:",
+      "communicationText": "Para comunicarnos con usted, responder a sus consultas, proporcionar soporte al cliente y enviarle actualizaciones sobre nuestros servicios.",
+      "personalizationTitle": "Personalización:",
+      "personalizationText": "Para personalizar su experiencia en nuestro sitio web y adaptar el contenido y los servicios a sus preferencias.",
+      "analyticsTitle": "Análisis:",
+      "analyticsText": "Para analizar los patrones de uso y mejorar nuestro sitio web y servicios.",
+      "legalComplianceTitle": "Cumplimiento Legal:",
+      "legalComplianceText": "Para cumplir con las obligaciones legales y proteger nuestros derechos e intereses.",
+      
+      "informationSharingTitle": "Compartición y Divulgación de Información",
+      "serviceProvidersTitle": "Proveedores de Servicios:",
+      "serviceProvidersText": "Podemos compartir su información con proveedores de servicios externos que nos asisten en la operación de nuestro sitio web, la realización de nuestro negocio o la prestación de servicios a usted, siempre que estas partes acuerden mantener su información confidencial.",
+      "legalRequirementsTitle": "Requisitos Legales:",
+      "legalRequirementsText": "Podemos divulgar su información si es requerido por la ley o en respuesta a solicitudes válidas de las autoridades públicas.",
+      "protectionOfRightsTitle": "Protección de Derechos:",
+      "protectionOfRightsText": "Podemos divulgar su información para proteger nuestros derechos, propiedades o seguridad, o la de otros.",
+      
+      "dataSecurityTitle": "Seguridad de Datos",
+      "dataSecurityText": "Implementamos una variedad de medidas de seguridad para mantener la seguridad de su información personal. Sin embargo, ningún método de transmisión por internet o almacenamiento electrónico es 100% seguro, y no podemos garantizar la seguridad absoluta.",
+      
+      "yourRightsTitle": "Sus Derechos",
+      "yourRightsText": "Tiene derecho a acceder, corregir, actualizar o eliminar su información personal. Puede hacerlo contactándonos utilizando la información de contacto proporcionada en nuestro sitio web. Responderemos a su solicitud dentro de un tiempo razonable.",
+      
+      "thirdPartyLinksTitle": "Enlaces a Terceros",
+      "thirdPartyLinksText": "Nuestro sitio web puede contener enlaces a sitios web de terceros. No somos responsables de las prácticas de privacidad ni del contenido de estos sitios web. Le recomendamos leer las políticas de privacidad de cualquier sitio web de terceros que visite.",
+      
+      "cookiesTitle": "Cookies",
+      "cookiesText": "Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Las cookies son pequeños archivos que un sitio o su proveedor de servicios transfiere al disco duro de su computadora a través de su navegador web (si lo permite) que permite que los sistemas del sitio o del proveedor de servicios reconozcan su navegador y capturen y recuerden cierta información.",
+      
+      "changesToPrivacyTitle": "Cambios en Esta Declaración de Privacidad",
+      "changesToPrivacyText": "Podemos actualizar esta Declaración de Privacidad y Confidencialidad de vez en cuando para reflejar cambios en nuestras prácticas o por otras razones operativas, legales o reglamentarias. Le notificaremos de cualquier cambio publicando la nueva declaración en nuestro sitio web y actualizando la fecha de vigencia.",
+      
+      "contactUsTitle": "Contáctenos",
+      "contactUsText": "Si tiene alguna pregunta sobre esta Declaración de Privacidad y Confidencialidad, contáctenos a través de la información de contacto proporcionada en nuestro sitio web.",
+      
+      "effectiveDateTitle": "Fecha de Vigencia",
+      "effectiveDateText": "Fecha de Vigencia: [Insertar Fecha]"
+    }
+  }
+  

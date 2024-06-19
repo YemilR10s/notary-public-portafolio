@@ -1,0 +1,42 @@
+.imgContainer{
+    width: 100%;
+    height: 500px;
+    background-image: url(../../public/legalInfoIMFG.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.legalInformationH2{
+    font-size: 4em;
+    color: var(--color4);
+}
+.legalInfoContainer{
+    padding: 0 100px;
+}
+@media (max-width: 426px) {
+
+    .legalInfoContainer{
+        padding: 0 50px;
+    }
+    
+}
+@media (max-width: 376px) {
+
+    .legalInfoContainer{
+        padding: 0 30px;
+    }
+    
+}
+@media (max-width: 321px) {
+
+    .legalInfoContainer{
+        padding: 0 20px;
+    }
+    .legalInformationH2{
+        font-size: 2.5em;
+        color: var(--color4);
+    }
+}

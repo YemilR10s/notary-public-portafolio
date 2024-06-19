@@ -26,6 +26,11 @@ import enGallery from "./locales/gallery/enGallery.json"
 import esGallery from "./locales/gallery/esGallery.json" 
 import enAboutMe from "./locales/aboutMeT/enAboutMe.json"
 import esAboutMe from "./locales/aboutMeT/esAboutMe.json"
+import enLegalInfo from "./locales/legalInfoT/enLegalInfo.json"
+import esLegalInfo from "./locales/legalInfoT/esLegalInfo.json"
+import enPrivacyAndConfidentiality from "./locales/PrivacyAndConfidentialityT/enPrivacyAndConfidentiality.json"
+import esPrivacyAndConfidentiality from "./locales/PrivacyAndConfidentialityT/esPrivacyAndConfidentiality.json"
+
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
@@ -33,6 +38,7 @@ import { FAQ } from './components/fqa'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { AboutMePage } from './pages/aboutMePage'
 import { LegalInfoPage } from './pages/legalInfoPage'
+import { PrivacyAndConfidentiality } from './pages/PrivacyAndConfidentiality'
 
 
 // initialize i18next
@@ -50,7 +56,9 @@ i18n
            ...enTestimony,
            ...enTestimonyCarrusel,
            ...enGallery,
-           ...enAboutMe
+           ...enAboutMe,
+           ...enLegalInfo,
+           ...enPrivacyAndConfidentiality
         }
       },
       es: {translation: {
@@ -61,7 +69,9 @@ i18n
           ...esTestimony,
           ...esTestimonyCarrusel,
           ...esGallery,
-          ...esAboutMe
+          ...esAboutMe,
+          ...esLegalInfo,
+          ...esPrivacyAndConfidentiality
 
       }}
     }
@@ -92,6 +102,7 @@ function App() {
         <Route path='/notary-public-portafolio/AboutMePage' element={<AboutMePage />}/>
         <Route path='/notary-public-portafolio/faq' element={ <FAQ/>}/>
         <Route path='/notary-public-portafolio/legalInfoPage' element={ <LegalInfoPage/>}/>
+        <Route path='/notary-public-portafolio/PrivacyAndConfidentiality' element={ <PrivacyAndConfidentiality/>}/>
 
       </Routes>
 
