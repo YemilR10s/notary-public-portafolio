@@ -28,14 +28,14 @@
     color: var(--color1);
 }
 
-.services-section .services-icon{
+.services-section .services-content{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin: 0 18em;
     text-align: center;
     gap: 2em;
 }
-.services-section .services-icon .caja{
+.services-section .services-content .caja{
     border: 1px solid white;
     border-radius: 20px;
     background: white;
@@ -44,8 +44,11 @@
     text-align: start;
     
 }
-.services-section .services-icon .caja h3{
+.services-section .services-content .caja h3{
     color: var(--color1);
+}
+.services-section .services-content .caja p{
+    font-weight: 500;
 }
 
 .fa-receipt, .fa-certificate, .fa-people-carry-box,
@@ -63,7 +66,7 @@
         background: var(--color4);
         padding: 2em 0;
     }
-    .services-section .services-icon{
+    .services-section .services-content{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         margin: 0 3em;
@@ -78,7 +81,7 @@
     .services-section h2{
         font-size: 2em;
     }
-    .services-section .services-icon{
+    .services-section .services-content{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin: 0 3em;
@@ -86,3 +89,34 @@
         gap: 2em;
     }
 }
+@media (max-width: 321px){
+    /* services pages */
+    .services-Img-Title{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+       
+    }
+    .services-Img-Title .servicesH2{
+        font-size: 3em;
+        
+    }
+    .services-section{    
+        padding: 0.5em 0;
+    }
+    .services-section h2{
+        font-size: 1.8em;
+    }
+    .services-section .services-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 2em;
+        text-align: center;
+        gap: 2em;
+    }
+    .services-section .services-content .caja p{
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+}
+

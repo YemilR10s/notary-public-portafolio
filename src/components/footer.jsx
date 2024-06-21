@@ -94,7 +94,7 @@ export const Footer = () => {
                   </li>
 
                   <li><Link to="/notary-public-portafolio/testimonios">
-                          {t("frequentQuestions")}</Link>
+                          {t("testimonyLink")}</Link>
                   </li>
                 </ul>
               </div>

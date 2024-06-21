@@ -1,5 +1,6 @@
 .gallery-container{
     width: 100%;
+    height: 700px;
     background: var(--color5);
     display: flex;
     justify-content: center;
@@ -10,8 +11,6 @@
 
 .images-container {
     width: 80%;
-    
-    
 
   }
   
@@ -83,6 +82,16 @@
       }
 }
 @media (max-width:426px) {
+  .gallery-container{
+    width: 100%;
+    height: 1700px;
+    background: var(--color5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    
+}
     .grid-imagenes {
         display: grid;
         grid-template-columns: repeat(300px,1fr);

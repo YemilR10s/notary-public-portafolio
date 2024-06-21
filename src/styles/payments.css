@@ -26,8 +26,8 @@
         color: var(--color1);
     }
     .payments{
-        width: 400px;
-        height: 200px;
+        width: 350px;
+        height: 150px;
         text-align: center;
         margin: 20px auto;
         display: flex;
@@ -38,7 +38,7 @@
     }
     .payments img{
         padding: 10px;
-        width: 80px;
+        width: 65px;
         
     }
 }

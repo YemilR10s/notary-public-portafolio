@@ -3,7 +3,7 @@
     position: fixed;
     width: 100%;
     height: 60px;
-    background: var(--color4);
+    background: var(--color6);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -55,11 +55,14 @@
     opacity: 1;
 }
 .navbar-container .items-container .idiomas{
-    width: 50px;
-    height: 25px;
+    width: 100px;
+    height: 30px;
     margin: 15px;
-    background: var(--color4);
-    border: 2px solid var(--color2);
+    background: var(--color3);
+    border: 3px solid var(--color2);
+    color: var(--color2);
+    border-radius: 10px;
+    text-align: center;
     
 }
 

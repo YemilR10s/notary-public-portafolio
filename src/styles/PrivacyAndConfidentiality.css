@@ -42,6 +42,17 @@
   
 }
 @media (max-width: 320px) {
+  .privacyContainerIMG{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../public/pravacyAndConfidentiality.jpg);
+    background-position: center;
+    background-size: cover;
+  
+  }
   .PrivacyAndConfidentialityH2{
     font-size: 3em;
     

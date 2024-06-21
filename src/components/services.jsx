@@ -16,7 +16,7 @@ export const Services = () => {
     
 
 
-      <div className="services-icon">
+      <div className="services-content">
 
 
             <div className="caja">
@@ -55,9 +55,7 @@ export const Services = () => {
                       
         </div>
 
-      <div className="services-conten">
-
-      </div>
+      
         
     </div>
     </>
