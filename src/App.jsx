@@ -3,10 +3,15 @@ import { Footer } from './components/footer'
 import { Home } from './components/home'
 import { Navbar } from './components/navbar'
 import { Gallery } from './components/gallery'
+import { FAQ } from './components/fqa'
+
 
 /* pages */
 import { ServicesPage } from './pages/servicesPage'
 import { TestimonialsPage } from './pages/testimonialsPage'
+import { AboutMePage } from './pages/aboutMePage'
+import { LegalInfoPage } from './pages/legalInfoPage'
+import { PrivacyAndConfidentiality } from './pages/PrivacyAndConfidentiality'
 
 
 /* locales translation */
@@ -34,11 +39,8 @@ import esPrivacyAndConfidentiality from "./locales/PrivacyAndConfidentialityT/es
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
-import { FAQ } from './components/fqa'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { AboutMePage } from './pages/aboutMePage'
-import { LegalInfoPage } from './pages/legalInfoPage'
-import { PrivacyAndConfidentiality } from './pages/PrivacyAndConfidentiality'
+
 
 
 // initialize i18next

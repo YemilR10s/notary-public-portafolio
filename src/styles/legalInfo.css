@@ -16,7 +16,7 @@
 .legalInfoContainer{
     padding: 0 100px;
 }
-@media (max-width: 426px) {
+@media (max-width: 526px) {
 
     .legalInfoContainer{
         padding: 0 50px;

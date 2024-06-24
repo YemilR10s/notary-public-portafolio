@@ -68,7 +68,7 @@
     color: var(--color4);
 
 }
-@media (max-width:426px) {
+@media (max-width:526px) {
     .containerFooter{
          height: 700px;
         
