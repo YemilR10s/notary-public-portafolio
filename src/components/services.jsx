@@ -1,6 +1,7 @@
 
 import '../styles/services.css'
 import { useTranslation } from 'react-i18next'
+import {motion} from "framer-motion"
 
 
 
@@ -19,39 +20,59 @@ export const Services = () => {
       <div className="services-content">
 
 
-            <div className="caja">
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="caja">
             <i className="fa-solid fa-receipt" style={{color:"red"}}></i>
             <h3>{t("notaryPublic")}</h3>
             <p>{t("notaryP")}</p>
-            </div>
+            </motion.div>
 
 
-            <div className="caja">
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="caja">
             <i className="fa-solid fa-certificate" style={{color:"yellow"}}></i>
             <h3>{t("CertifiedSigningAgent")}</h3>  
             <p>{t("CertifiedSigningAgentP")}</p>
-            </div>
+            </motion.div>
 
 
 
-            <div className="caja">
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="caja">
             <i className="fa-solid fa-people-carry-box" style={{color:"green"}}></i>
             <h3>TRAMITES DE INMIGRACIÓN</h3> 
             <p>{t("ImmigrationProceduresP")}</p>
-            </div>
+            </motion.div>
 
-            <div className="caja">
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="caja">
             <i className="fa-solid fa-ring" style={{color:"blue"}}></i>
             <h3>{t("WeddingOffician")}</h3> 
             <p>{t("WeddingOfficianP")}</p>
-            </div>
+            </motion.div>
 
 
-            <div className="caja">
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="caja">
             <i className="fa-solid fa-map-location-dot" style={{color:"pink"}}></i>
             <h3>{t("MOBILENOTARY")}</h3>
             <p>{t("MOBILENOTARYP")}</p>
-            </div>
+            </motion.div>
                       
         </div>
 

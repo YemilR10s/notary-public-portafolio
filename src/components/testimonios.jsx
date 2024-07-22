@@ -3,6 +3,7 @@ import { CardTestimonios } from "./cardTestimonios"
 import "../styles/testimonios.css"
 import Slider from "react-slick";
 import { useTranslation } from "react-i18next";
+import {motion} from "framer-motion"
 
 
 export const Testimonios = () => {
@@ -56,13 +57,29 @@ export const Testimonios = () => {
 
 
       <div className="testimonios">
-          <div className="google"></div>
+          <motion.div 
+          whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+          className="google"></motion.div>
           <div className="p-e-container">
-            <div className="estrellas"></div>
-            <div className="puntuacion"> = 5,0</div>
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="estrellas"></motion.div>
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="puntuacion"> = 5,0</motion.div>
           </div>
           <div className="t-a-container">
-            <div className="totalidad">{t("review")}</div>
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:1.6}}
+            viewport={{once:true}}
+            className="totalidad">{t("review")}</motion.div>
             <a href="https://www.google.com/localservices/prolist?spp=CgwvZy8xcHAydmJuNWQ%3D&scp=CgAaG05PVEFSWSBQVUJMSUMgSU4gQ1VUTEVSIEJBWSobTk9UQVJZIFBVQkxJQyBJTiBDVVRMRVIgQkFZ&q=NOTARY+PUBLIC+IN+CUTLER+BAY&src=2&slp=UhQIARIQEg4iDC9nLzFwcDJ2Ym41ZA#ts=3" target="_blank">{t("reviewA")}</a>
           </div>
       </div>

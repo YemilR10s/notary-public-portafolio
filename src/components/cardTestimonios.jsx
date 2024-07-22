@@ -1,13 +1,18 @@
 
 
 import "../styles/cardTestimonios.css"
+import {motion} from "framer-motion"
 
 
 export const CardTestimonios = ({review, name, src,date,star}) => {
   return (
     <>
     
-    <div className="card">
+    <motion.div 
+    whileInView={{opacity:[0,1]}}
+    transition={{duration:1.6}}
+    viewport={{once:true}}
+    className="card">
 
       <div className="encabezado">
         <img src={src} alt="foto" />
@@ -19,7 +24,7 @@ export const CardTestimonios = ({review, name, src,date,star}) => {
        <img src={star} alt="estrella" />
 
       <p>{review}</p>
-    </div>
+    </motion.div>
     </>
   )
 }
