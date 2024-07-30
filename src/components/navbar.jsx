@@ -38,10 +38,10 @@ export const Navbar = () => {
 
      <ul className={showMenu ? "items-container active": 'items-container'}>
 
-        <li><Link to="/notary-public-portafolio/">{t("home")}</Link></li>
-        <li><Link to="/notary-public-portafolio/services">{t("services")}</Link></li>
-        <li><Link to="/notary-public-portafolio/aboutMePage">{t("aboutME")}</Link></li>
-        <li><Link to="/notary-public-portafolio/gallery">{t("gallery")}</Link></li>
+        <li><Link to="/">{t("home")}</Link></li>
+        <li><Link to="/services">{t("services")}</Link></li>
+        <li><Link to="/aboutMePage">{t("aboutME")}</Link></li>
+        <li><Link to="/gallery">{t("gallery")}</Link></li>
         
         
 

@@ -39,7 +39,7 @@ import esPrivacyAndConfidentiality from "./locales/PrivacyAndConfidentialityT/es
 
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {  Route, Routes } from 'react-router-dom'
 
 
 
@@ -91,26 +91,26 @@ function App() {
  
   return (  
       
-    <BrowserRouter>
+    <>
     
       <Navbar/>
 
       <Routes>
 
-        <Route path='/notary-public-portafolio/' element={<Home />}/>
-        <Route path='/notary-public-portafolio/services' element={<ServicesPage/>}/>
-        <Route path='/notary-public-portafolio/gallery' element={<Gallery/>}/>
-        <Route path='/notary-public-portafolio/testimonios' element={<TestimonialsPage />}/>
-        <Route path='/notary-public-portafolio/AboutMePage' element={<AboutMePage />}/>
-        <Route path='/notary-public-portafolio/faq' element={ <FAQ/>}/>
-        <Route path='/notary-public-portafolio/legalInfoPage' element={ <LegalInfoPage/>}/>
-        <Route path='/notary-public-portafolio/PrivacyAndConfidentiality' element={ <PrivacyAndConfidentiality/>}/>
+        <Route path='/' element={<Home />}/>
+        <Route path='/services' element={<ServicesPage/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/testimonios' element={<TestimonialsPage />}/>
+        <Route path='/AboutMePage' element={<AboutMePage />}/>
+        <Route path='/faq' element={ <FAQ/>}/>
+        <Route path='/legalInfoPage' element={ <LegalInfoPage/>}/>
+        <Route path='/PrivacyAndConfidentiality' element={ <PrivacyAndConfidentiality/>}/>
 
       </Routes>
 
       <Footer/>
 
-    </BrowserRouter>
+    </>
      
    
   );
