@@ -67,6 +67,17 @@ export const Home = () => {
                 viewport={{once:true}}
                 >{t("list6")}</motion.li>
             </ul>
+             {/* Button */}
+             <motion.button
+              whileInView={{opacity:[0,1], x:[-100,0]}}
+              transition={{duration:1.7}}
+              viewport={{once:true}}
+              className='appointment' 
+              >{t("book")}
+              <a href="https://wa.link/55fg8t" target='_blank'>
+              <i className="fa-brands fa-whatsapp"></i>
+              </a>
+              </motion.button>
             </div>
 
         </div>
@@ -74,15 +85,33 @@ export const Home = () => {
         <div className="home-image">
             <motion.img 
             whileInView={{opacity:[0,1]}}
-            transition={{duration:1.6}}
+            transition={{duration:2}}
             viewport={{once:true}}
             src={imagePortafolio} 
             alt="LidiaIMG" />
-             {/* Buttons */}
-            {/*  <button
-              className='appointment' 
-              onClick={()=>alert("available soon")}>{t("book")}
-              </button> */}
+
+            <motion.div 
+            whileInView={{opacity:[0,1]}}
+            transition={{duration:2}}
+            viewport={{once:true}}
+            className="socialNetworks">
+              <a href="https://www.instagram.com/cutlerbaynotary/" target='_blank'>
+              <i className="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="mailto:Lidiasnotarypublic2@gmail.com">
+              <i className="fa-solid fa-envelope"></i>
+              </a>
+
+              <a href="https://www.google.com/maps/dir//10393+SW+186th+St+%231H,+Miami,+FL+33157,+United+States/@25.5964147,-80.4422418,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88d9c4587f5832cf:0x17704e976b880896!2m2!1d-80.3598403!2d25.5964378?entry=ttu" target="_blank">
+                <i className="fa-solid fa-location-dot"></i>
+              </a>
+
+              <a href="https://wa.link/55fg8t" target='_blank'>
+              <i className="fa-brands fa-whatsapp"></i>
+              </a>
+            </motion.div>
+            
         </div>
     </div>
 
