@@ -31,10 +31,12 @@
     text-decoration: none;
     color: var(--color2);
     font-weight: bold;
-    font-size: 1.1em;
-    
-    
+    font-size: 1.1em; 
 
+}
+.activeNav{
+    border-bottom: 5px solid var(--color3);
+    
 }
 .navbar-container .items-container li a::before,
 .navbar-container .items-container li a.active{
@@ -53,6 +55,7 @@
 {
     width: 100%;
     opacity: 1;
+    background: var(--color3);
 }
 .navbar-container .items-container .idiomas{
     width: 100px;
@@ -72,8 +75,6 @@
 .navbar-container .fa-xmark{
     display: none;
 }
-
-
 
 @media (max-width: 900px) {
 

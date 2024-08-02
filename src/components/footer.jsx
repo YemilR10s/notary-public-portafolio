@@ -153,7 +153,7 @@ export const Footer = () => {
                   whileInView={{opacity:[0,1]}}
                   transition={{duration:1.6}}
                   viewport={{once:true}}
-                  ><Link to="/notary-public-portafolio/LegalInfoPage">
+                  ><Link to="/LegalInfoPage">
                   {t("legalInformation")}
                   </Link>
                   </motion.li>
@@ -172,7 +172,7 @@ export const Footer = () => {
                   whileInView={{opacity:[0,1]}}
                   transition={{duration:1.6}}
                   viewport={{once:true}}
-                  ><Link to='/notary-public-portafolio/PrivacyAndConfidentiality'>
+                  ><Link to='/PrivacyAndConfidentiality'>
                     {t("PrivacyConfidentiality")}</Link>
                   </motion.li>
 
@@ -180,7 +180,7 @@ export const Footer = () => {
                   whileInView={{opacity:[0,1]}}
                   transition={{duration:1.6}}
                   viewport={{once:true}}
-                  ><Link to="/notary-public-portafolio/testimonios">
+                  ><Link to="/testimonios">
                    {t("testimonyLink")}</Link>
                   </motion.li>
                 </ul>
@@ -197,7 +197,7 @@ export const Footer = () => {
             transition={{duration:1.6}}
             viewport={{once:true}}
             > &copy;Copyright 2024 Lidia S. || Coded by 
-                <a href="https://www.instagram.com/yemilr10s/" 
+                <a href="https://www.instagram.com/dev.r10s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
                    target="_blank">
                   Yemil Rios
                </a>.

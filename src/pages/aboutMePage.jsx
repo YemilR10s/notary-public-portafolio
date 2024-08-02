@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next"
 import lidia from "../../public/lidia.jpg"
 import { Testimonios } from "../components/testimonios"
+import { motion } from "framer-motion"
 import "../styles/aboutMe.css"
 
 export const AboutMePage = () => {
@@ -11,7 +12,11 @@ export const AboutMePage = () => {
     
 
         <div className="aboutMeIMG">
-            <h2 className="aboutMeH2">{t("aboutMeH2")}</h2>
+            <motion.h2 
+            whileInView={{opacity:[0,1],x:[100,0]}}
+            transition={{duration:1.5}}
+            viewport={{once:true}}
+            className="aboutMeH2">{t("aboutMeH2")}</motion.h2>
         </div>
 
         <div className="aboutMeArticle">

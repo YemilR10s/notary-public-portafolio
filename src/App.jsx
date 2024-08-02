@@ -40,6 +40,7 @@ import esPrivacyAndConfidentiality from "./locales/PrivacyAndConfidentialityT/es
 import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
 import {  Route, Routes } from 'react-router-dom'
+import { NoFoundPage } from './components/noFoundPage'
 
 
 
@@ -105,6 +106,7 @@ function App() {
         <Route path='/faq' element={ <FAQ/>}/>
         <Route path='/legalInfoPage' element={ <LegalInfoPage/>}/>
         <Route path='/PrivacyAndConfidentiality' element={ <PrivacyAndConfidentiality/>}/>
+        <Route path='*' element={ <NoFoundPage/>}/>
 
       </Routes>
 
