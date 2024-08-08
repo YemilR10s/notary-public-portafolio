@@ -1,13 +1,14 @@
 import '../styles/home.css';
-import { Payments } from './payments';
-import { Services } from './services';
-import { Testimonios } from './testimonios';
+import { Payments } from '../components/payments';
+import { Services } from '../components/services';
+import { Testimonios } from '../components/testimonios';
 import imagePortafolio from '/lidiaIMG1.jpg'
 import logo1 from "/logo1.png"
 import logo2 from "/logo2.png"
 import logo4 from "/logo4.png"
 import {motion} from "framer-motion"
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 
 
@@ -68,16 +69,29 @@ export const Home = () => {
                 >{t("list6")}</motion.li>
             </ul>
              {/* Button */}
+             <div className="butonsHome">
+              <a href="https://wa.link/55fg8t" target='_blank'>
              <motion.button
               whileInView={{opacity:[0,1], x:[-100,0]}}
               transition={{duration:1.7}}
               viewport={{once:true}}
               className='appointment' 
               >{t("book")}
-              <a href="https://wa.link/55fg8t" target='_blank'>
               <i className="fa-brands fa-whatsapp"></i>
-              </a>
               </motion.button>
+              </a>
+
+              <Link to="/services">
+              <motion.button
+              whileInView={{opacity:[0,1], x:[-100,0]}}
+              transition={{duration:1.7}}
+              viewport={{once:true}}
+              className='servicesButton' 
+              >{t("servicesButton")}
+              <i className="fa-solid fa-arrow-right"></i>
+              </motion.button>
+              </Link>
+             </div>
             </div>
 
         </div>

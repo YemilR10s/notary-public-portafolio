@@ -1,8 +1,7 @@
 {
     "description" : "Más de <span style='color: red;'>12 años</span> de experiencia como notario público. <span style='color: red;'></span>",
     "book": "Agendar Una Cita",
-
-    
+    "servicesButton": "servicios",
     "list1": "Comodidad de servicios notariales móviles, ofreciendo flexibilidad.",
     "list2": "Compromiso con la confidencialidad y seguridad de la información del cliente.",
     "list3": "Ejecución de documentos con estricto cumplimiento de requisitos legales y estándares éticos.",

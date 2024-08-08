@@ -1,6 +1,6 @@
 /* components */
 import { Footer } from './components/footer'
-import { Home } from './components/home'
+import { Home } from './pages/home'
 import { Navbar } from './components/navbar'
 import { Gallery } from './components/gallery'
 import { FAQ } from './components/fqa'
@@ -41,6 +41,7 @@ import {initReactI18next} from "react-i18next"
 import i18n from 'i18next'
 import {  Route, Routes } from 'react-router-dom'
 import { NoFoundPage } from './components/noFoundPage'
+import ScrollToTop from './components/scrollToTop'
 
 
 
@@ -96,8 +97,8 @@ function App() {
     
       <Navbar/>
 
+       <ScrollToTop />
       <Routes>
-
         <Route path='/' element={<Home />}/>
         <Route path='/services' element={<ServicesPage/>}/>
         <Route path='/gallery' element={<Gallery/>}/>

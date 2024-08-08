@@ -41,10 +41,10 @@ export const Navbar = () => {
 
      <ul className={showMenu ? "items-container active": 'items-container'}>
 
-        <li><NavLink className={({ifIsActive})=> (ifIsActive ? "activeNav" : null)} to="/">{t("home")}</NavLink></li>
-        <li><NavLink className={({ifIsActive})=> (ifIsActive ? "activeNav" : null)} to="/services">{t("services")}</NavLink></li>
-        <li><NavLink className={({ifIsActive})=> (ifIsActive ? "activeNav" : null)} to="/aboutMePage">{t("aboutME")}</NavLink></li>
-        <li><NavLink className={({ifIsActive})=> (ifIsActive ? "activeNav" : null)} to="/gallery">{t("gallery")}</NavLink></li>
+        <li><NavLink className={({isActive})=> (isActive ? "activeNav" : null)} to="/">{t("home")}</NavLink></li>
+        <li><NavLink className={({isActive})=> (isActive ? "activeNav" : null)} to="/services">{t("services")}</NavLink></li>
+        <li><NavLink className={({isActive})=> (isActive ? "activeNav" : null)} to="/aboutMePage">{t("aboutME")}</NavLink></li>
+        <li><NavLink className={({isActive})=> (isActive ? "activeNav" : null)} to="/gallery">{t("gallery")}</NavLink></li>
         
         
 

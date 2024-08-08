@@ -68,14 +68,30 @@
     color: var(--color6);
     font-weight: 700;
     margin: 20px 0 0 20px;
+    box-shadow: 0px 0px 20px -10px;
+
 }
-.appointment a i{
+.servicesButton{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: var(--color4);
+    color: var(--color7);
+    font-weight: 700;
+    margin: 20px 0 0 20px;  
+    box-shadow: 0px 0px 20px -10px;
+
+}
+a .appointment i,a .servicesButton i {
     margin-left: 15px;
     font-size: 1.3em;
-    color: var(--color6);
+    color: var(--color3);
 }
 .appointment:hover{
-    background: var(--color3);
+    background: var(--color6);
+    color: var(--color7);
 
 }
                                         /* home hero img image */
@@ -93,13 +109,14 @@
 .home-section .home-image img{
     width: 300px;
     height: 400px;
-    border-radius: 50%;
+    border-radius: 20%;
     margin-right: 2em;
     object-fit: fill;
-    box-shadow: 1px 0px 5px 1px black;
+    box-shadow: 0px 0px 20px -10px  black;
+    padding: 1em;
 }
 
-.home-section .home-image::before{
+/* .home-section .home-image::before{
     content: "";
     position: absolute;
     width: 140px;
@@ -108,8 +125,8 @@
     right: 10px;
     background: var(--color3);
     clip-path: polygon(50% 0%, 57% 39%, 98% 35%, 60% 49%, 79% 91%, 52% 58%, 21% 91%, 44% 51%, 2% 35%, 46% 41%);
-}
-.home-section .home-image::after{
+} */
+/* .home-section .home-image::after{
     content: "";
     position: absolute;
     width: 100px;
@@ -118,7 +135,7 @@
     left: 10px;
     background: var(--color3);
     clip-path: polygon(50% 0%, 57% 39%, 98% 35%, 60% 49%, 79% 91%, 52% 58%, 21% 91%, 44% 51%, 2% 35%, 46% 41%);
-}
+} */
 
 .socialNetworks{
     width: 30px;
@@ -127,7 +144,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    background: var(--color3);
+    background: var(--color6);
+    box-shadow: 0px 0px 10px -5px ;
     border-radius: 10px;
 }
 .socialNetworks a i{
@@ -226,11 +244,13 @@
 
 @media (max-width: 1000px) {
     
+                            /* Home Section all content  */
+
 }
 
 
  
-@media (max-width:800px) {
+@media (max-width:1000px) {
                         /* Home Section all content  */
 .home-section{
     width: 100%;
@@ -261,7 +281,6 @@ height: 400px;
 border-radius: 20%;
 margin-left: 5em;
 object-fit: fill;
-box-shadow: 1px 0px 5px 10px var(--color2);
 }
                             /* home hero Section*/
 
@@ -324,7 +343,8 @@ box-shadow: 1px 0px 5px 10px var(--color2);
 
                            /* Home Section all content  */
 .home-section{
-    width: 100%;;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -350,7 +370,6 @@ height: 400px;
 border-radius: 20%;
 margin-left: 5em;
 object-fit: fill;
-box-shadow: 1px 0px 5px 10px var(--color2);
 }
 .home-section .home-image::before{
     display: none;
@@ -446,7 +465,7 @@ box-shadow: 1px 0px 5px 10px var(--color2);
                            /* Home Section all content  */
 .home-section{
     width: 100%;
-    height: 1200px;
+    height: 100%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -510,7 +529,6 @@ box-shadow: 1px 0px 5px 10px var(--color2);
     height: 300px;
     border-radius: 20%;
     margin-left: 3em;
-    box-shadow: 1px 0px 5px 10px var(--color2);
     }
                             /* home hero Section*/
 .home-section .home-hero-Section .home-hero-tittle-h1{

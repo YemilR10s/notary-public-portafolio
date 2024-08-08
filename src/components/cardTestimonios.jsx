@@ -22,8 +22,7 @@ export const CardTestimonios = ({review, name, src,date,star}) => {
         </div>
       </div>
        <img src={star} alt="estrella" />
-
-      <p>{review}</p>
+       <p>{review}</p>
     </motion.div>
     </>
   )
