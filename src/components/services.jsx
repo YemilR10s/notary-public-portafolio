@@ -2,6 +2,7 @@
 import '../styles/services.css'
 import { useTranslation } from 'react-i18next'
 import {motion} from "framer-motion"
+import servicesDraw from "/servicesDraw.png"
 
 
 
@@ -19,6 +20,14 @@ export const Services = () => {
 
       <div className="services-content">
 
+            <motion.div 
+                whileInView={{opacity:[0,1]}}
+                transition={{duration:1.6}}
+                viewport={{once:true}}
+                className="services">
+                <h2 className='ourServicesH2Home'>{t("ourServices")}</h2>  
+                <img src={servicesDraw} alt="" style={{width: 200}}/>
+            </motion.div>
 
             <motion.div 
             whileInView={{opacity:[0,1]}}

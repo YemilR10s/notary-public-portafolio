@@ -174,8 +174,8 @@ a .appointment i,a .servicesButton i {
     margin: 0;
     padding-top: 30px;
     font-size: 4em;
-    background: var(--color4);
     color: var(--color2);
+    text-align: center;
 }
 .testimonyH2Home{
     margin: 0;
@@ -183,6 +183,7 @@ a .appointment i,a .servicesButton i {
     font-size: 4em;
     background: none;
     color: var(--color2);
+    text-align: center;
 
 }
 

@@ -151,11 +151,9 @@ export const Home = () => {
         src={logo4} alt="logo4" />
 
       </div>
-      <motion.h2 
-      whileInView={{opacity:[0,1]}}
-            transition={{duration:1.6}}
-            viewport={{once:true}}
-      className='ourServicesH2Home'>{t("ourServices")}</motion.h2>
+
+     
+
       <Services/>
       <motion.h2 
       whileInView={{opacity:[0,1]}}
