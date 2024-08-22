@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import '../styles/fqa.css'; // Import a separate CSS file for styling
-import { Faqs } from '../utils/faqsData';
+import { useTranslation } from 'react-i18next';
 
 export const FAQ = () => {
     const [activeIndex, setActiveIndex] = useState(null);
-
+    const { t } = useTranslation();
     const toggleFAQ = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
@@ -16,26 +16,26 @@ export const FAQ = () => {
         <>
         <article className='faq-section'>
             <div className="faq-container">
-                <div className="faq-container">
+                <div className="faq-content">
                     {/* left */}
                     <div className="left-content">
-
-                        <h2>Any Questions?</h2>
-                        <p>To provide you with the information you need, we have compiled the most frequently asked questions and their answers in this section. If you have any questions that you cannot find here, please do not hesitate to contact us directly. We are here to help resolve any concerns and provide you with the best possible assistance.</p>
+                        <h2>{t('faqSection.title')}</h2>
+                        <p>{t('faqSection.description')}</p>
                     </div>
                     {/* rigth */}
-                {Faqs.map((faq, index) => (
-                <div key={index} className={`faq ${activeIndex === index ? 'active' : ''}`} onClick={() => toggleFAQ(index)}>
-
-                    <div className="faq-question">
-                        {faq.question}
-                    </div>
-                    <div className="faq-answer" style={{ display: activeIndex === index ? 'block' : 'none' }}>
-                        {faq.answer}
+                    <div className="right-content">
+                        {t('faqs', {returnObjects: true}).map((faq, index) => (
+                        <div key={index} className={`faq ${activeIndex === index ? 'active' : ''}`} onClick={() => toggleFAQ(index)}>
+                            <div className="faq-question">
+                                <h3>{faq.question}</h3> {activeIndex === index ? '-':'+'}
+                            </div>
+                            <div className={activeIndex === index ? 'faq-answer' : 'faq-answer-hiden' }>
+                                {faq.answer} 
+                            </div>
+                        </div>
+                    ))}
                     </div>
                 </div>
-            ))}
-        </div>
             </div>
         </article>
 

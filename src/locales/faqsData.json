@@ -1,0 +1,59 @@
+{
+    "en": {
+      "faqs": [
+        {
+          "question": "What documents require notarization?",
+          "answer": "Notarization is typically required for legal documents such as wills, deeds, powers of attorney, affidavits, and contracts. However, requirements can vary by jurisdiction, so it's best to consult with a notary or legal professional."
+        },
+        {
+          "question": "What identification is acceptable for notarization?",
+          "answer": "Acceptable forms of identification usually include government-issued photo IDs such as driver's licenses, passports, or state ID cards. The ID must be current, unexpired, and contain a photograph and signature."
+        },
+        {
+          "question": "How much does notarization cost?",
+          "answer": "Notary fees vary by jurisdiction and the type of document being notarized. In many cases, there's a set fee per notarized signature, but additional charges may apply for mobile services or after-hours appointments. It's best to inquire about fees upfront."
+        },
+        {
+          "question": "Can you notarize documents written in a language other than English?",
+          "answer": "Yes, a notary can typically notarize documents written in languages other than English, as long as they can communicate effectively with the signer and understand the content of the document. However, it's advisable to check local regulations regarding bilingual notarization."
+        },
+        {
+          "question": "What is the process for getting a document notarized?",
+          "answer": "The process generally involves the signer appearing before the notary, presenting valid identification, and signing the document in the notary's presence. The notary then verifies the signer's identity, confirms their willingness to sign, and applies their official seal or stamp to the document."
+        }
+      ],
+      "faqSection": {
+        "title": "Any Questions?",
+        "description": "If you have any questions that you cannot find here, please do not hesitate to contact us directly. We are here to help resolve any concerns and provide you with the best possible assistance."
+      }
+    },
+    "es": {
+      "faqs": [
+        {
+          "question": "¿Qué documentos requieren notarización?",
+          "answer": "La notarización generalmente se requiere para documentos legales como testamentos, escrituras, poderes notariales, declaraciones juradas y contratos. Sin embargo, los requisitos pueden variar según la jurisdicción, por lo que es mejor consultar con un notario o un profesional legal."
+        },
+        {
+          "question": "¿Qué identificación es aceptable para la notarización?",
+          "answer": "Las formas aceptables de identificación suelen incluir identificaciones con foto emitidas por el gobierno, como licencias de conducir, pasaportes o tarjetas de identificación estatal. La identificación debe estar vigente, no vencida y contener una fotografía y firma."
+        },
+        {
+          "question": "¿Cuánto cuesta la notarización?",
+          "answer": "Las tarifas notariales varían según la jurisdicción y el tipo de documento que se vaya a notarizar. En muchos casos, hay una tarifa establecida por firma notarial, pero pueden aplicarse cargos adicionales por servicios móviles o citas fuera del horario normal. Es mejor consultar sobre las tarifas con anticipación."
+        },
+        {
+          "question": "¿Se pueden notarizar documentos redactados en un idioma distinto al inglés?",
+          "answer": "Sí, un notario generalmente puede notarizar documentos redactados en idiomas distintos al inglés, siempre que pueda comunicarse eficazmente con el firmante y entender el contenido del documento. Sin embargo, es aconsejable verificar las regulaciones locales sobre la notarización bilingüe."
+        },
+        {
+          "question": "¿Cuál es el proceso para obtener un documento notarizado?",
+          "answer": "El proceso generalmente implica que el firmante se presente ante el notario, muestre una identificación válida y firme el documento en presencia del notario. Luego, el notario verifica la identidad del firmante, confirma su disposición para firmar y aplica su sello o estampilla oficial al documento."
+        }
+      ],
+      "faqSection": {
+        "title": "¿Alguna pregunta?",
+        "description": "Si tienes alguna pregunta que no puedes encontrar aquí, no dudes en contactarnos directamente. Estamos aquí para ayudarte a resolver cualquier inquietud y brindarte la mejor asistencia posible."
+      }
+    }
+  }
+  

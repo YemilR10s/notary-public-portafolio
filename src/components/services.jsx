@@ -26,7 +26,7 @@ export const Services = () => {
                 viewport={{once:true}}
                 className="services">
                 <h2 className='ourServicesH2Home'>{t("ourServices")}</h2>  
-                <img src={servicesDraw} alt="" style={{width: 200}}/>
+                <img src={servicesDraw} alt="" className='ourServicesImgHome'/>
             </motion.div>
 
             <motion.div 

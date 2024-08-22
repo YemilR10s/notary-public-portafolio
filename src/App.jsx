@@ -35,6 +35,7 @@ import enLegalInfo from "./locales/legalInfoT/enLegalInfo.json"
 import esLegalInfo from "./locales/legalInfoT/esLegalInfo.json"
 import enPrivacyAndConfidentiality from "./locales/PrivacyAndConfidentialityT/enPrivacyAndConfidentiality.json"
 import esPrivacyAndConfidentiality from "./locales/PrivacyAndConfidentialityT/esPrivacyAndConfidentiality.json"
+import faqs from "./locales/faqsData.json"
 
 
 import {initReactI18next} from "react-i18next"
@@ -62,7 +63,8 @@ i18n
            ...enGallery,
            ...enAboutMe,
            ...enLegalInfo,
-           ...enPrivacyAndConfidentiality
+           ...enPrivacyAndConfidentiality,
+           ...faqs.en
         }
       },
       es: {translation: {
@@ -75,7 +77,9 @@ i18n
           ...esGallery,
           ...esAboutMe,
           ...esLegalInfo,
-          ...esPrivacyAndConfidentiality
+          ...esPrivacyAndConfidentiality,
+          ...faqs.es
+
 
       }}
     }

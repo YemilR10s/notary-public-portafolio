@@ -170,13 +170,7 @@ a .appointment i,a .servicesButton i {
     padding: 20px;
 }
 
-.ourServicesH2Home{
-    margin: 0;
-    padding-top: 30px;
-    font-size: 4em;
-    color: var(--color2);
-    text-align: center;
-}
+
 .testimonyH2Home{
     margin: 0;
     padding-top: 20px;
@@ -185,6 +179,10 @@ a .appointment i,a .servicesButton i {
     color: var(--color2);
     text-align: center;
 
+}
+.ourServicesImgHome{
+    width: 300px;
+    border-radius: 20px;
 }
 
 
@@ -447,18 +445,6 @@ object-fit: fill;
     
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  @media (max-width:400px){
