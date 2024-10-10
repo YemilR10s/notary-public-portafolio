@@ -8,9 +8,7 @@ export const AboutMePage = () => {
 
     const {t} = useTranslation()
   return (
-    <>
-    
-
+    <>  
         <div className="aboutMeIMG">
             <motion.h2 
             whileInView={{opacity:[0,1],x:[100,0]}}

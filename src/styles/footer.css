@@ -16,7 +16,7 @@
 
 /* ****************** CONTACTO ****************/
 
-.containerFooter .content .email p a{
+.containerFooter .content .email a{
     color: var(--color4);
     text-decoration: none;
 }

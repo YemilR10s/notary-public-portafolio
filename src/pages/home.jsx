@@ -70,7 +70,7 @@ export const Home = () => {
             </ul>
              {/* Button */}
              <div className="butonsHome">
-              <a href="https://wa.link/55fg8t" target='_blank'>
+              <a href="https://wa.me/message/RMCZBQXQBPIOJ1" target='_blank'>
              <motion.button
               whileInView={{opacity:[0,1], x:[-100,0]}}
               transition={{duration:1.7}}
@@ -121,7 +121,7 @@ export const Home = () => {
                 <i className="fa-solid fa-location-dot"></i>
               </a>
 
-              <a href="https://wa.link/55fg8t" target='_blank'>
+              <a href="https://wa.me/message/RMCZBQXQBPIOJ1" target='_blank'>
               <i className="fa-brands fa-whatsapp"></i>
               </a>
             </motion.div>

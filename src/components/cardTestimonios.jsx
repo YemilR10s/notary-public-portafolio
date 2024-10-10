@@ -14,13 +14,13 @@ export const CardTestimonios = ({review, name, src,date,star}) => {
     viewport={{once:true}}
     className="card">
 
-      <div className="encabezado">
+      <article className="encabezado">
         <img src={src} alt="foto" />
         <div className="nombreYfecha">
           <h3>{name}</h3>
           <p>{date}</p>
         </div>
-      </div>
+      </article>
        <img src={star} alt="estrella" />
        <p>{review}</p>
     </motion.div>
